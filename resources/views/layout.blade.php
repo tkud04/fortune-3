@@ -1,508 +1,81 @@
-<html lang="en" class="wf-opensans-n4-active wf-opensans-n6-active wf-opensans-n7-active wf-poppins-n4-active wf-poppins-n6-active wf-poppins-n7-active wf-poppins-n9-active wf-active" style=""><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
-    <title>{{$title}} | Mobile Buzz - Gadgets, Phones and Accessories in the United Kingdom</title>
+<!DOCTYPE html>
+<html id="sitetop" lang="en-US" class="attop webp">
+<head><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let r;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",r=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(r){e["rocket"+t]=n=r}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();
+</script>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chome=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script type="text/javascript">
+if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gform.scriptsLoaded=!0}),window.addEventListener("DOMContentLoaded",function(){gform.domLoaded=!0});var gform={domLoaded:!1,scriptsLoaded:!1,initializeOnLoaded:function(o){gform.domLoaded&&gform.scriptsLoaded?o():!gform.domLoaded&&gform.scriptsLoaded?window.addEventListener("DOMContentLoaded",o):document.addEventListener("gform_main_scripts_loaded",o)},hooks:{action:{},filter:{}},addAction:function(o,n,r,t){gform.addHook("action",o,n,r,t)},addFilter:function(o,n,r,t){gform.addHook("filter",o,n,r,t)},doAction:function(o){gform.doHook("action",o,arguments)},applyFilters:function(o){return gform.doHook("filter",o,arguments)},removeAction:function(o,n){gform.removeHook("action",o,n)},removeFilter:function(o,n,r){gform.removeHook("filter",o,n,r)},addHook:function(o,n,r,t,i){null==gform.hooks[o][n]&&(gform.hooks[o][n]=[]);var e=gform.hooks[o][n];null==i&&(i=n+"_"+e.length),null==t&&(t=10),gform.hooks[o][n].push({tag:i,callable:r,priority:t})},doHook:function(o,n,r){if(r=Array.prototype.slice.call(r,1),null!=gform.hooks[o][n]){var t,i=gform.hooks[o][n];i.sort(function(o,n){return o.priority-n.priority});for(var e=0;e<i.length;e++)"function"!=typeof(t=i[e].callable)&&(t=window[t]),"action"==o?t.apply(null,r):r[0]=t.apply(null,r)}if("filter"==o)return r[0]},removeHook:function(o,n,r,t){if(null!=gform.hooks[o][n])for(var i=gform.hooks[o][n],e=i.length-1;0<=e;e--)null!=t&&t!=i[e].tag||null!=r&&r!=i[e].priority||i.splice(e,1)}}}
+</script>
 
-    <meta name="keywords" content="iphone, android">
-    <meta name="description" content="Mobile Buzz - Gadgets, Phones and Accessories in the United Kingdom">
-     @yield('metas')
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/logo_transparent.png">
-
-    <script src="js/webfont.js" async=""></script><script>
-        WebFontConfig = {
-            google: { families: ['Open+Sans:400,600,700', 'Poppins:400,600,700,900'] }
-        };
-        (function (d) {
-            var wf = d.createElement('script'), s = d.scripts[0];
-            wf.src = 'js/webfont.js';
-            wf.async = true;
-            s.parentNode.insertBefore(wf, s);
-        })(document);
+    <meta name="viewport" content="width=device-width,initial-scale=1">	
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.amsivedigital.com/apple-touch-icon.png?v=1.1">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.amsivedigital.com/favicon-32x32.png?v=1.1">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.amsivedigital.com/favicon-16x16.png?v=1.1">
+	<link rel="manifest" href="https://www.amsivedigital.com/site.webmanifest?v=1.1">
+	<link rel="mask-icon" href="https://www.amsivedigital.com/safari-pinned-tab.svg?v=1.1" color="#7c0f81">
+	<meta name="msapplication-TileColor" content="#7c0f81">
+	<meta name="theme-color" content="#ffffff">
+	<script>
+         const webp = new Image();
+         webp.src = "data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA==";
+			webp.onerror = function () { 
+				document.documentElement.classList.remove("webp"); 
+			}
     </script>
-
-
-
-    <link rel="stylesheet" type="text/css" href="vendor/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.min.css">
-
-    <!-- Plugins CSS File -->
-    <link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css">
-    <link rel="stylesheet" type="text/css" href="vendor/owl-carousel/owl.carousel.min.css">
-
-    <!-- Main CSS File -->
-    <link rel="stylesheet" type="text/css" href="css/demo1.min.css">
-    <!--<link rel="stylesheet" type="text/css" href="{{asset('css/style.min.css')}}">-->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700%7CPoppins:400,600,700,900" media="all">
-     
-	   <script src="vendor/jquery/jquery.min.js"></script>
-	 
-	 	<!-- custom js -->
-	<script src="{{asset('js/helpers.js').'?ver='.rand(32,99999)}}"></script>
-	<script src="{{asset('js/mmm.js').'?ver='.rand(32,99999)}}"></script>
-	
-	 
-	 	<!--SweetAlert--> 
-    <link href="lib/sweet-alert/sweetalert2.css" rel="stylesheet">
-    <script src="lib/sweet-alert/sweetalert2.js"></script>
-	
-	<!--Slider--> 
-    <link href="lib/slider/style.css" rel="stylesheet">
-    <script src="lib/slider/index.js"></script>
-	 
-    <!-- Custom CSS File -->
-    <link rel="stylesheet" type="text/css" href="{{asset('css/custom.css').'?ver='.rand(32,99999)}}">
-	
-	@yield('styles')
-	@yield('scripts')
-
-	
-<!-- DO NOT EDIT!! start of plugins -->
-@foreach($plugins as $p)
-  {!! $p['value'] !!}
-@endforeach
-<!-- DO NOT EDIT!! end of plugins -->
-</head>
- <?php
-	  $xu = url('login'); $xt = "Login"; $xlt = "";
-	
-	  if(is_null($user))
-	  {
-		$welcomeText = "Welcome to our online store!";
-	  }
-	  else
-	  {
-		$xu = url('dashboard'); $xt = "Dashboard"; $xlt = " | <a href='bye'><strong class='text-primary'>Logout</strong></a>";
-		 $welcomeText = "Welcome back, ".$user->fname."!";
-	  }
-	  
-						 $tel = "#"; $call = "+44 7451 233887";
-						 /**
-						 if(isset($pe['phone']) && $pe['phone'] != null)
-						 {
-							 $tel = $pe['phone']; $call = $tel;
-						 }
-						 **/
-	  ?>
-<body class="home loaded" style="overflow-x: hidden;">
-    <div class="loading-overlay">
-        <div class="bounce-loader">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-            <div class="bounce4"></div>
-        </div>
-    </div>
-    <div class="page-wrapper">
-       
-		@if(!isset($no_header))
-		 <h1 class="d-none">Mobile Buzz - Your Number 1 Gadgets Store in the UK!</h1>
-        <header class="header">
-		 <div class="header-top">
-                <div class="container">
-                    <div class="header-left">
-                        <p class="welcome-msg">Welcome to Mobile Buzz! | <a href="{{$xu}}"><strong class="text-primary">{{$xt}}</strong></a>{!!$xlt!!}</p>
-                    </div>
-                    <div class="header-right">
-					 <a href="tel:{{$tel}}" class="calll"><span class="text-uppercase font-weight-semi-bold ls-l"></span><strong class="text-primary">{{$call}}</strong></a>
-                        
-                      
-                        <!-- End DropDown Menu -->
-                        <div class="dropdown dropdown-expanded d-lg-show">
-                            <a href="#dropdown">Links</a>
-                            <ul class="dropdown-box">
-                                <li><a href="{{url('about')}}">About</a></li>
-                                <li><a href="{{url('terms')}}">Terms</a></li>
-                                <li><a href="{{url('delivery')}}">Delivery</a></li>
-                                <li><a href="{{url('contact')}}">Contact</a></li>
-                                <li><a href="{{url('privacy')}}">Privacy</a></li>
-                            </ul>
-                        </div>
-                        <!-- End DropDownExpanded Menu -->
-                    </div>
-                </div>
-            </div>
-            <!-- End HeaderTop -->
-            <div class="header-middle has-center">
-                <div class="container">
-                    <div class="header-left">
-                        <a href="#" class="mobile-menu-toggle" style="margin-right: 15px;">
-                            <i class="d-icon-bars2"></i>
-                        </a>
-                        <!-- End Mobile Menu Toggle -->
-                       
-                        <span class="divider d-lg-block"></span>
-                        <!-- End Divider --
-                        <div class="dropdown currency-dropdown">
-                            <a href="#currency">GBP</a>
-                            <ul class="dropdown-box">
-                                <li><a href="#USD">USD</a></li>
-                                <li><a href="#EUR">EUR</a></li>
-                                <li><a href="#GBP">GBP</a></li>
-                            </ul>
-                        </div>
-                        <!-- End DropDown Menu -->
-						
-                        <div class="dropdown language-dropdown">
-                            <a href="#language"><img src="images/flags/en2.png" alt="UK Flag" class="dropdown-image">ENG</a>
-                            <ul class="dropdown-box">
-                                <li>
-                                    <a href="#USD">
-                                        <img src="images/flags/en2.png" alt="UK Flag" class="dropdown-image">ENG
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#EUR">
-                                        <img src="images/flags/fr.png" alt="France Flag" class="dropdown-image">FR
-								</a>
-                                </li>
-                            </ul>
-                        </div>
-						
-						
-                    </div>
-                    <div class="header-center">
-                        <a href="{{url('/')}}" class="logo pt-4 pb-4 mr-0">
-                            <span><img src="images/youtube_profile_image.png" alt="logo" style="width: 100px !important; height: 100px !important;">
-							
-							</span>
-                        </a>
-                        <!-- End Logo -->
-                    </div>
-                    <div class="header-right">
-					<div class="dropdown mr-3">
-                            <a href="#currency">GBP</a>
-                            <ul class="dropdown-box">
-                                <li><a href="#USD">USD</a></li>
-                                <li><a href="#EUR">EUR</a></li>
-                                <li><a href="#GBP">GBP</a></li>
-                            </ul>
-                        </div>
-                        <!-- End DropDown Menu -->
-					@if($user == null)
-                        <a class="login" href="{{url('login')}}">
-                            <i class="d-icon-user"></i>
-                            <span>Login</span>
-                        </a>
-						<!-- End Login -->
-					@else
-					    <div class="dropdown cart-dropdown">
-						 <a href="#" class="cart-toggle">
-                                <span class="cart-label">
-                                    <span class="cart-name no-after">Hello, {{$user->fname}}</span>
-                                </span>
-                            </a>
-                         <div class="dropdown-box">
-						    <a href="{{url('dashboard')}}" class="cart-toggle btn btn-dark mb-3">Dashboard</a>
-						    <a href="{{url('bye')}}" class="cart-toggle btn btn-danger">Logout</a>
-						 </div>
-						</div>
-						<?php
-			             $cc = (isset($cart)) ? count($cart) : 0;
-						 $subtotal = 0;
-		                ?>
-                        <span class="divider d-lg-block"></span>
-                        <div class="dropdown cart-dropdown">
-						<?php
-				                   for($a = 0; $a < $cc; $a++)
-				                   {
-					                 $item = $cart[$a]['product'];
-					                 $qty = $cart[$a]['qty'];
-					                 $itemAmount = $item['data']['amount'];
-									  $subtotal += ($itemAmount * $qty);
-				                 ?>
-								 
-						<?php
-								   }
-						?>
-                            <a href="#" class="cart-toggle">
-                                <span class="cart-label">
-                                    <span class="cart-name">My Cart</span>
-                                    <span class="cart-price">&#0163;{{number_format($subtotal,2)}}</span>
-                                </span>
-                                <i class="minicart-icon">
-                                    <span class="cart-count">{{$cc}}</span>
-                                </i>
-                            </a>
-                            <!-- End Cart Toggle -->
-                            <div class="dropdown-box">
-                                <div class="product product-cart-header">
-                                    <span class="product-cart-counts">{{$cc}} items</span>
-                                    <span><a href="{{url('cart')}}">View cart</a></span>
-                                </div>
-                                <div class="products scrollable">
-								 <?php
-								   $subtotal = 0;
-				                   for($a = 0; $a < $cc; $a++)
-				                   {
-					                 $item = $cart[$a]['product'];
-					                 $qty = $cart[$a]['qty'];
-					                 $itemAmount = $item['data']['amount'];
-									 $subtotal += ($itemAmount * $qty);
-									 $imgs = $item['imggs'];
-									 $uu = url('product')."?xf=".$item['id'];
-				                 ?>
-                                    <div class="product product-cart">
-                                        <div class="product-detail">
-                                            <a href="{{$uu}}" class="product-name">{{$item['name']}}</a>
-                                            <div class="price-box">
-                                                <span class="product-quantity">{{$qty}}</span>
-                                                <span class="product-price">&#0163;{{number_format($itemAmount,2)}}</span>
-                                            </div>
-                                        </div>
-                                        <figure class="product-media">
-                                            <a href="#">
-                                                <img src="{{$imgs[0]}}" alt="{{$item['name']}}" width="90" height="90">
-                                            </a>
-                                            <button class="btn btn-link btn-close">
-                                                <i class="fas fa-times"></i>
-                                            </button>
-                                        </figure>
-                                    </div>
-									 <?php
-			                          }
-			                         ?>
-                                    <!-- End of Cart Product -->
-                                </div>
-                                <!-- End of Products  -->
-                                <div class="cart-total">
-                                    <label>Subtotal:</label>
-                                    <span class="price">&#0163;{{number_format($subtotal,2)}}</span>
-                                </div>
-                                <!-- End of Cart Total -->
-                                <div class="cart-action">
-                                    <a href="{{url('checkout')}}" class="btn btn-dark"><span>Checkout</span></a>
-                                </div>
-                                <!-- End of Cart Action -->
-                            </div>
-                            <!-- End Dropdown Box -->
-                        </div>
-						@endif
-                    </div>
-                </div>
-
-            </div>
-            <!-- End Header Middle -->
-        </header>
-        <!-- End Header -->
-		@endif
-        <main class="main">
-		 @if(isset($ph) && $ph)
-             @include('page-header',['title' => $title,'img' => asset('images/page-header.jpg')])
-		 @endif
-            <div class="page-content{{$pcClass}}">
-			
-			  <!--------- Session notifications-------------->
-        	<?php
-               $pop = ""; $val = "";
-               
-               if(isset($signals))
-               {
-                  foreach($signals['okays'] as $key => $value)
-                  {
-                    if(session()->has($key))
-                    {
-                  	$pop = $key; $val = session()->get($key);
-                    }
-                 }
-              }
-              
-             ?> 
-
-                 @if($pop != "" && $val != "")
-                   @include('session-status',['pop' => $pop, 'val' => $val])
-                 @endif
-        	<!--------- Input errors -------------->
-                    @if (count($errors) > 0)
-                          @include('input-errors', ['errors'=>$errors])
-                     @endif 
-			
-                @yield('content')
-            </div>
-        </main>
-        <!-- End Main -->
-		<footer class="footer">
-			<div class="container">
-				<div class="footer-top">
-					<div class="row">
-						<div class="col-lg-4">
-							<a href="{{url('/')}}" class="logo-footer">
-								<img src="images/facebook_cover_photo_2.png" alt="logo-footer" width="326" height="78">
-							</a>
-							<!-- End FooterLogo -->
-						</div>
-						<div class="col-lg-8">
-							<div class="widget widget-newsletter form-wrapper form-wrapper-inline">
-								<div class="newsletter-info mx-auto mr-lg-2 ml-lg-4">
-									<h4 class="widget-title">Subscribe to our Newsletter</h4>
-									<p>Get all the latest information on Events, Sales and Offers.</p>
-								</div>
-								<form action="#" class="input-wrapper input-wrapper-inline">
-									<input type="email" class="form-control" name="email" id="email" placeholder="Email address here..." required="">
-									<a href="javascript:void(0)" class="btn btn-primary btn-md ml-2">subscribe<i class="d-icon-arrow-right"></i></a>
-								</form>
-							</div>
-							<!-- End Newsletter -->
-						</div>
-					</div>
-				</div>
-				<!-- End FooterTop -->
-				<div class="footer-middle">
-					<div class="row">
-						<div class="col-lg-6 col-md-6">
-							<div class="widget">
-								<h4 class="widget-title">Contact Info</h4>
-								<ul class="widget-body">
-									
-									<li>
-										<label>Email:</label>
-								        <a href="mailto:sales@mobilebuzzonline.co.uk">sales@mobilebuzzonline.co.uk</a>
-									</li>
-									<li>
-										<label>Address:</label>
-										<a href="javascript:void(0)">54 Mortlake Road, Ilford, IG1 2SX</a>
-									</li>
-									<li>
-										<label>WORKING DAYS/HOURS</label>
-									</li>
-									<li>
-										<a href="javascript:void(0)">Mon - Fri / 8:30 AM - 7:00 PM</a><br>
-										<a href="javascript:void(0)">Sat / 9:00 AM - 6:00 PM</a><br>
-										<a href="javascript:void(0)">Sun / Closed</a>
-									</li>
-								</ul>
-							</div>
-							<!-- End Widget -->
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="widget ml-lg-4">
-								<h4 class="widget-title">My Account</h4>
-								<ul class="widget-body">
-								   @if($user == null)
-									<li>
-										<a class="login" href="{{url('login')}}">
-                                          <span>Login</span>
-                                        </a>
-									</li>
-								   @else
-									<li>
-										<a href="{{url('dashboard')}}">Dashboard</a>
-										<a href="{{url('bye')}}">Logout</a>
-									</li>
-									@endif
-								</ul>
-							</div>
-							<!-- End Widget -->
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="widget ml-lg-4">
-								<h4 class="widget-title">Useful Links</h4>
-								<ul class="widget-body">
-									<li><a href="{{url('about')}}">About</a></li>
-                                <li><a href="{{url('terms')}}">Terms</a></li>
-                                <li><a href="{{url('delivery')}}">Delivery</a></li>
-                                <li><a href="{{url('contact')}}">Contact</a></li>
-                                <li><a href="{{url('privacy')}}">Privacy</a></li>
-								</ul>
-							</div>
-							<!-- End Widget -->
-						</div>
-					</div>
-				</div>
-				<!-- End FooterMiddle -->
-				<div class="footer-bottom">
-                    <div class="footer-left">
-                        <figure class="payment">
-                            <img src="images/payment.png" alt="payment" width="159" height="29">
-                        </figure>
-                    </div>
-                    <div class="footer-center">
-                        <p class="copyright">Mobile Buzz &copy; {{date("Y")}}. All Rights Reserved</p>
-                        <p class="copyright text-center">Company No. 12024231</p>
-                    </div>
-                    
-                </div>
-				<!-- End FooterBottom -->
-			</div>
-		</footer>
-        <!-- End Footer -->
-
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+		<link rel="preload" href="https://www.amsivedigital.com/wp-content/themes/ad-theme/assets/fonts/titillium-web-light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="https://www.amsivedigital.com/wp-content/themes/ad-theme/assets/fonts/titillium-web-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="https://www.amsivedigital.com/wp-content/themes/ad-theme/assets/fonts/roboto-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		
-    </div>
-    <!-- Sticky Footer -->
-    <div class="sticky-footer sticky-content fix-bottom" style="">
-        <a href="{{url('/')}}" class="sticky-link active">
-            <i class="d-icon-home"></i>
-            <span>Home</span>
-        </a>
-        <a href="{{$xu}}" class="sticky-link">
-            <i class="d-icon-user"></i>
-            <span>{{$xt}}</span>
-        </a>
-        
-        <a href="{{url('cart')}}" class="sticky-link">
-            <i class="d-icon-bag"></i>
-            <span>Cart({{count($cart)}})</span>
-        </a>
-        <div class="header-search hs-toggle dir-up">
-            <a href="#" class="search-toggle sticky-link">
-                <i class="d-icon-search"></i>
-                <span>Search</span>
-            </a>
-            <form action="#" class="input-wrapper">
-                <input type="text" class="form-control" name="search" autocomplete="off" placeholder="Search your keyword..." required="">
-                <a class="btn btn-search" href="javascript:void(0)">
-                    <i class="d-icon-search"></i>
-                </a>
-            </form>
-        </div>
-        <a href="{{url('categories')}}" class="sticky-link">
-            <i class="d-icon-volume"></i>
-            <span>Categories</span>
-        </a>
-    </div>
-    <!-- Scroll Top -->
-    <a id="scroll-top" href="#top" title="Top" role="button" class="scroll-top"><i class="d-icon-angle-up"></i></a>
+		<link rel="preload" as="image" href="https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02.jpg.webp"   media="(min-width:768px)">
+<link rel="preload" as="image" href="https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile.jpg.webp" imagesrcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile.jpg.webp 414w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile-331x400.jpg.webp 331w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile-166x200.jpg.webp 166w" imagesizes="(max-width: 414px) 100vw, 414px" media="(max-width:767.98px)">
 
-    <!-- MobileMenu -->
-    <div class="mobile-menu-wrapper">
-        <div class="mobile-menu-overlay">
-        </div>
-        <!-- End Overlay -->
-        <a class="mobile-menu-close" href="#" style="z-index: 100 !important;"><i class="d-icon-times"></i></a>
-        <!-- End CloseButton -->
-        <div class="mobile-menu-container scrollable">
-            
-            <ul class="mobile-menu mmenu-anim">
-                <li class="active">
-                    <a class="mobile-menu-close" href="{{url('/')}}">Home</a>
-                </li>
-                <li><a href="{{url('about')}}">About</a></li>
-                <li><a href="{{url('terms')}}">Terms</a></li>
-                <li><a href="{{url('contact')}}">Contact</a></li>
-                <li><a href="{{url('privacy')}}">Privacy</a></li>
-            </ul>
-            <form action="#" class="input-wrapper mb-6">
-                <input type="text" class="form-control" name="search" autocomplete="off" placeholder="Search your keyword..." required="">
-                <button class="btn btn-search" type="submit">
-                    <i class="d-icon-search"></i>
-                </button>
-            </form>
-            <!-- End Search Form -->
-        </div>
-    </div>
-        <!-- Plugins JS File -->
-  
-    <script src="vendor/elevatezoom/jquery.elevatezoom.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<!-- This site is optimized with the Yoast SEO Premium plugin v16.9 (Yoast SEO v16.9) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Amsive Digital, Formerly Path Interactive | Digital Performance Marketing Agency</title>
+	<meta name="description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
+	<link rel="canonical" href="https://www.amsivedigital.com/" />
+	<!--
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Amsive Digital" />
+	<meta property="og:description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
+	<meta property="og:url" content="https://www.amsivedigital.com/" />
+	<meta property="og:site_name" content="Amsive Digital" />
+	<meta property="article:publisher" content="https://www.facebook.com/amsivedigital" />
+	<meta property="article:modified_time" content="2021-08-10T14:30:36+00:00" />
+	<meta property="og:image" content="https://www.amsivedigital.com/wp-content/uploads/2021/06/Amsive_social.jpg" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="628" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:title" content="Amsive Digital" />
+	<meta name="twitter:image" content="https://www.amsivedigital.com/wp-content/uploads/2021/06/Amsive_social.jpg" />
+	<meta name="twitter:site" content="@amsive_digital" />
+	-->
 
-    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
-    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="vendor/isotope/isotope.pkgd.min.js"></script>
-    <script src="vendor/sticky/sticky.min.js"></script>
-	
-    <!-- Main JS File -->
-    <script src="{{asset('js/main.js').'?ver='.rand(23,999)}}"></script>
-</body>
-</html>
+
+
+<link rel="alternate" type="application/rss+xml" title="Amsive Digital &raquo; Feed" href="https://www.amsivedigital.com/feed/" />
+<link rel='stylesheet' id='bootstrap-css'  href='https://www.amsivedigital.com/wp-content/themes/ad-theme/bootstrap-custom/make/bootstrap-cust.min.css?ver=1624397687' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='styles-css'  href='https://www.amsivedigital.com/wp-content/cache/min/1/wp-content/themes/ad-theme/dist/css/styles.min.css?ver=1628889607' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://www.amsivedigital.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.amsivedigital.com/wp-json/wp/v2/pages/2" />
+<link rel='shortlink' href='https://www.amsivedigital.com/' />
+<script type="rocketlazyloadscript">var WarningBrowserPath = {"pathwarning_title":"Your browser is no longer supported.","pathwarning_sub":"A modern browser is required for security, performance, and reliability.","pathwarning_logo":"https://www.amsivedigital.com/wp-content/uploads/2021/03/Amsive-Digital-Logo-White.svg"};</script>
+<style>#ie_over {background-color: rgba(124, 15, 129, 1);} .ieisold #ie_over .container-fluid h1 {color:#ffffff !important; } .ieisold #ie_over .container-fluid h2 {color:#ffffff !important; } .ieisold #ie_over .content-table a ins {color:#ffffff !important; } .ieisold #ie_over svg path {fill:#ffffff !important;} </style><script type="rocketlazyloadscript" data-minify='0' >
+						!function( d ) {
+							if( document.documentMode ){
+								var s = d.createElement('script');
+									s.src = 'https://www.amsivedigital.com/wp-content/plugins/amsive-IE11-warning-master/assets/js/iewarn.js';
+									d.head.appendChild(s);
+								var c = d.createElement('link');
+									c.href = 'https://www.amsivedigital.com/wp-content/plugins/amsive-IE11-warning-master/assets/css/iewarn.css';
+									c.setAttribute('rel', 'stylesheet');
+									c.setAttribute('type', 'text/css');
+									d.head.appendChild(c);	
+							}
+						}(document)
+						</script><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>
+</head>

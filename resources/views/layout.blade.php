@@ -30,14 +30,13 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 		<link rel="preload" href="https://www.amsivedigital.com/wp-content/themes/ad-theme/assets/fonts/titillium-web-light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="preload" href="https://www.amsivedigital.com/wp-content/themes/ad-theme/assets/fonts/titillium-web-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="preload" href="https://www.amsivedigital.com/wp-content/themes/ad-theme/assets/fonts/roboto-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-		
+		@if(!$ph)
 		<link rel="preload" as="image" href="https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02.jpg.webp"   media="(min-width:768px)">
 <link rel="preload" as="image" href="https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile.jpg.webp" imagesrcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile.jpg.webp 414w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile-331x400.jpg.webp 331w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile-166x200.jpg.webp 166w" imagesizes="(max-width: 414px) 100vw, 414px" media="(max-width:767.98px)">
-
-	<!-- This site is optimized with the Yoast SEO Premium plugin v16.9 (Yoast SEO v16.9) - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Amsive Digital, Formerly Path Interactive | Digital Performance Marketing Agency</title>
+@endif
+	<title>@yield('title') | Digital Performance Marketing Agency</title>
 	<meta name="description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
-	<link rel="canonical" href="https://www.amsivedigital.com/" />
+	<link rel="canonical" href="{{url('/')}}" />
 	<!--
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
@@ -58,7 +57,6 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 
 
 
-<link rel="alternate" type="application/rss+xml" title="Amsive Digital &raquo; Feed" href="https://www.amsivedigital.com/feed/" />
 <link rel='stylesheet' id='bootstrap-css'  href='https://www.amsivedigital.com/wp-content/themes/ad-theme/bootstrap-custom/make/bootstrap-cust.min.css?ver=1624397687' type='text/css' media='all' />
 <link data-minify="1" rel='stylesheet' id='styles-css'  href='https://www.amsivedigital.com/wp-content/cache/min/1/wp-content/themes/ad-theme/dist/css/styles.min.css?ver=1628889607' type='text/css' media='all' />
 <link rel="https://api.w.org/" href="https://www.amsivedigital.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.amsivedigital.com/wp-json/wp/v2/pages/2" />

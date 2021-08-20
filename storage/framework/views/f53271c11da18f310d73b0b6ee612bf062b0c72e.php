@@ -5,8 +5,15 @@ $pcClass = "";
 
 
 
+<?php $__env->startSection('title',"Welcome"); ?>
 
 
+<?php $__env->startSection('includes'); ?>
+<link rel="preload" as="image" href="images/Amsive-Hero-02.jpg.webp"   media="(min-width:768px)">
+<link rel="preload" as="image" href="images/Amsive-Hero-02-mobile.jpg.webp" media="(max-width:767.98px)">
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('bodyClass',"page-home-page noawesome hashero-video hashero"); ?>
 
 <?php $__env->startSection('content'); ?>
 

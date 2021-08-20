@@ -15,7 +15,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 	<link rel="apple-touch-icon" sizes="180x180" href="https://www.amsivedigital.com/apple-touch-icon.png?v=1.1">
 	<link rel="icon" type="image/png" sizes="32x32" href="https://www.amsivedigital.com/favicon-32x32.png?v=1.1">
 	<link rel="icon" type="image/png" sizes="16x16" href="https://www.amsivedigital.com/favicon-16x16.png?v=1.1">
-	<link rel="manifest" href="https://www.amsivedigital.com/site.webmanifest?v=1.1">
+	<link rel="manifest" href="site.webmanifest?v=1.1">
 	<link rel="mask-icon" href="https://www.amsivedigital.com/safari-pinned-tab.svg?v=1.1" color="#7c0f81">
 	<meta name="msapplication-TileColor" content="#7c0f81">
 	<meta name="theme-color" content="#ffffff">
@@ -31,10 +31,9 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 		<link rel="preload" href="fonts/titillium-web-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="preload" href="fonts/roboto-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		
-		<link rel="preload" as="image" href="images/Amsive-Hero-02.jpg.webp"   media="(min-width:768px)">
-<link rel="preload" as="image" href="images/Amsive-Hero-02-mobile.jpg.webp" imagesrcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile.jpg.webp 414w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile-331x400.jpg.webp 331w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile-166x200.jpg.webp 166w" imagesizes="(max-width: 414px) 100vw, 414px" media="(max-width:767.98px)">
-
-<title>{{$title}} | Digital Performance Marketing Agency</title>
+		@yield('includes')
+		
+<title>@yield('title') | Digital Performance Marketing Agency</title>
 	<meta name="description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
 	<link rel="canonical" href="https://www.amsivedigital.com/" />
 	<!--
@@ -99,8 +98,8 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 @endforeach
 <!-- DO NOT EDIT!! end of plugins -->
 </head>
-<body class="home page--home-template page-home-page noawesome hashero-video hashero">
-<header class="site-header" id="main-header">
+<body class="home page--home-template @yield('bodyClass')">
+<header class="site-header showtop fixed-top" id="mainn-header">
 							<div id="top-bar" class="bg-primary-2 py-2">
 						<div class="container-fluid mw-xl text-center text-white">
 							<div class="py-1"><p><a href="javascript:void(0)">PATH INTERACTIVE IS NOW AMSIVE DIGITAL.</a></p>
@@ -140,8 +139,10 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 						</span>
 					</button>
 				</div>
-				<div class="menu-container px-0 py-lg-4 py-3 d-none d-md-block"><ul id="header-nav" class="m-0 h-100"><li class=" menu-item nav-item firstline" ><a href="{{url('about')}}" class="nav-link "><span>About</span></a></li>
-<li class=" menu-item nav-item has-sub-menu dropdown firstline" data-toggle-dropdown="closed"><a title="See All Services" href="{{url('services')}}" class="nav-link  gotosub"><span>Services</span><svg height="16" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path></svg></a><div class="sub-menu-wrap three-col"><div class="container-fluid mw-xl"><div class="row text-start py-4"><div class="promo text-start col-lg-4 offset-xl-1"><div class="p-3 text-start"><h3 class="mb-lg-4 d-inline-block d-lg-block"> We help brands grow.</h3><a class="text-primary small-font font-weight-600 titillium-web second-link px-0 pb-2 ms-3 ms-lg-0" href="https://www.amsivedigital.com/services/" target="_self">See All Services</a></div></div><div class="py-3 px-4 col-xl-7 col-lg-8">
+				<div class="menu-container px-0 py-lg-4 py-3 d-none d-md-block">
+				<ul id="header-nav" class="m-0 h-100">
+				<li class=" menu-item nav-item firstline" ><a href="{{url('about')}}" class="nav-link "><span>About</span></a></li>
+<li class=" menu-item nav-item has-sub-menu dropdown firstline" data-toggle-dropdown="closed"><a title="See All Services" href="{{url('services')}}" class="nav-link  gotosub"><span>Services</span><svg height="16" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path></svg></a><div class="sub-menu-wrap three-col"><div class="container-fluid mw-xl"><div class="row text-start py-4"><div class="promo text-start col-lg-4 offset-xl-1"><div class="p-3 text-start"><h3 class="mb-lg-4 d-inline-block d-lg-block"> We help brands grow.</h3><a class="text-primary small-font font-weight-600 titillium-web second-link px-0 pb-2 ms-3 ms-lg-0" href="{{url('services')}}" target="_self">See All Services</a></div></div><div class="py-3 px-4 col-xl-7 col-lg-8">
 <ul class="sub-menu list-unstyled row"  role="menu">
 	<li class=" menu-item nav-item col-lg-6 col-4 text-start mb-3" ><a href="javascript:void(0)" class="nav-link h6 text-primary px-0 pt-0 pb-2 mb-0 d-inline-block"><span>Paid Media</span></a><div class="sub-desc small-font titillium-web">Develop the best full-funnel media mix.</div></li>
 	<li class=" menu-item nav-item col-lg-6 col-4 text-start mb-3" ><a href="javascript:void(0)" class="nav-link h6 text-primary px-0 pt-0 pb-2 mb-0 d-inline-block"><span>Social</span></a><div class="sub-desc small-font titillium-web">Build an authentic, action-oriented community.</div></li>
@@ -178,8 +179,22 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 </div>
 </nav><!-- end .navbar-->
 </header>
+<div id="page-content-container">
+	<div class="container-fluid mw-xl">
+        <div class="main-content home-page">
+         <style>	
+		#block_60399ede58603 .image-background {
+			background-position: center center;
+		}
+	    </style>
+       </div>
+	</div>
+	@yield('content')
+    <div class="container-fluid mw-xl"></div>
+    <!-- end .container-fluid -->
+</div>
+<!-- end #page-content-container -->
 
-@yield('content')
 
 <!-- FOOTER -->
 

@@ -34,7 +34,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 		<link rel="preload" as="image" href="images/Amsive-Hero-02.jpg.webp"   media="(min-width:768px)">
 <link rel="preload" as="image" href="images/Amsive-Hero-02-mobile.jpg.webp" imagesrcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile.jpg.webp 414w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile-331x400.jpg.webp 331w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Amsive-Hero-02-mobile-166x200.jpg.webp 166w" imagesizes="(max-width: 414px) 100vw, 414px" media="(max-width:767.98px)">
 
-<title>{{$title}} | Digital Performance Marketing Agency</title>
+<title><?php echo e($title); ?> | Digital Performance Marketing Agency</title>
 	<meta name="description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
 	<link rel="canonical" href="https://www.amsivedigital.com/" />
 	<!--
@@ -54,13 +54,13 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 	<meta name="twitter:image" content="https://www.amsivedigital.com/wp-content/uploads/2021/06/Amsive_social.jpg" />
 	<meta name="twitter:site" content="@amsive_digital" />
 	-->
-      @yield('metas')
+      <?php echo $__env->yieldContent('metas'); ?>
 
 
 <link rel='stylesheet' id='bootstrap-css'  href='css/bootstrap-cust.min.css?ver=1624397687' type='text/css' media='all' />
 <link data-minify="1" rel='stylesheet' id='styles-css'  href='css/styles.min.css?ver=1628889607' type='text/css' media='all' />
 <link rel="https://api.w.org/" href="https://www.amsivedigital.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.amsivedigital.com/wp-json/wp/v2/pages/2" />
-<link rel='shortlink' href="{{url('/')}}" />
+<link rel='shortlink' href="<?php echo e(url('/')); ?>" />
 <script type="rocketlazyloadscript">var WarningBrowserPath = {"pathwarning_title":"Your browser is no longer supported.","pathwarning_sub":"A modern browser is required for security, performance, and reliability.","pathwarning_logo":"https://www.amsivedigital.com/wp-content/uploads/2021/03/Amsive-Digital-Logo-White.svg"};</script>
 <style>#ie_over {background-color: rgba(124, 15, 129, 1);} .ieisold #ie_over .container-fluid h1 {color:#ffffff !important; } .ieisold #ie_over .container-fluid h2 {color:#ffffff !important; } .ieisold #ie_over .content-table a ins {color:#ffffff !important; } .ieisold #ie_over svg path {fill:#ffffff !important;} </style><script type="rocketlazyloadscript" data-minify='0' >
 						!function( d ) {
@@ -89,7 +89,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
             <div class="container-fluid mw-xl align-items-stretch">
 				<div class="navbar-header d-flex justify-content-between py-lg-4 py-3">
 					<div class="logo-wrap">
-												<a class="logo" href="{{url('/')}}" id="site-logo"
+												<a class="logo" href="<?php echo e(url('/')); ?>" id="site-logo"
 						   title="Amsive Digital" rel="home">
 							<div class="svg-logo"><canvas id="iesvg"></canvas><svg id="Amsive_Digital_-_Logo_Multi" data-name="Amsive Digital - Logo Multi" xmlns="http://www.w3.org/2000/svg" width="199" height="81" viewBox="0 0 415.703 169.939">
   <g id="Group_61" data-name="Group 61" transform="translate(0 0)">
@@ -150,7 +150,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
         </nav><!-- end .navbar-->
 </header>
 
-@yield('content')
+<?php echo $__env->yieldContent('content'); ?>
 
 <!-- FOOTER -->
 
@@ -427,3 +427,4 @@ if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_c
 
 </body>
 </html>
+<?php /**PATH C:\bkupp\lokl\repo\fortune-3\resources\views/layout.blade.php ENDPATH**/ ?>

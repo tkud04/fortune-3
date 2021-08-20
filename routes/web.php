@@ -12,5 +12,6 @@
 */
 
 Route::get('/', 'MainController@getIndex');
+Route::get('service', 'MainController@getService');
 
 Route::get('zohoverify/{nn}', 'MainController@getZoho');

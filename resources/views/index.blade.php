@@ -16,5 +16,5 @@ $pcClass = "";
 @section('bodyClass',"page-home-page noawesome hashero-video hashero")
 
 @section('content')
-
+@include('banner')
 @stop

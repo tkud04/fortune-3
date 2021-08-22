@@ -99,7 +99,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 <!-- DO NOT EDIT!! end of plugins -->
 </head>
 <body class="home page--home-template @yield('bodyClass')">
-<header class="site-header showtop fixed-top" id="mainn-header">
+<header class="site-header showtop tinny fixed-top" id="mainn-header">
 							<div id="top-bar" class="bg-primary-2 py-2">
 						<div class="container-fluid mw-xl text-center text-white">
 							<div class="py-1"><p><a href="javascript:void(0)">PATH INTERACTIVE IS NOW AMSIVE DIGITAL.</a></p>

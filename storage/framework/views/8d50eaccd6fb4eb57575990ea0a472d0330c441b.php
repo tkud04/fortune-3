@@ -24,7 +24,7 @@
 		<h1 class="hero-title display-1">We’re your data-driven brand growth engine.</h1>						
 		<div class="d-none d-sm-block">
 		   <div class="hero-block-description py-3 h5">Amplify your business with our data-centric, performance-driven digital marketing solutions.</div>
-		   <a class="btn btn-secondary" href="/services/" target="_self">Explore</a>
+		   <a class="btn btn-secondary" href="javascript:void(0)" target="_self">Explore</a>
 		</div>
 	  </div>
     </div>		

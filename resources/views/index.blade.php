@@ -140,4 +140,238 @@ $pcClass = "";
   </script>
 </section>
 
+<div>
+  <div class="container-fluid mw-xl"></div>
+</div>
+
+<section id="block_603bea155a384" class="content-block  alignfull logo-block py-5 has-font-color text-default">	
+<style>
+#block_603bea155a384 .logos-row .logo-item {			
+    flex: 1 0 25%;
+	max-width:25%;				
+}
+</style>	
+
+			<script type="rocketlazyloadscript">
+			function block_603bea155a384_logoToggle() {
+				var parent_b = document.getElementById("block_603bea155a384"); 
+				var logos = parent_b.getElementsByClassName("rest-select");
+				var btn = document.getElementById("block_603bea155a384-logo-toggle"); 
+				
+					for (var i = 0; i < logos.length; i++) {
+						logos.item(i).classList.toggle("active");
+					}
+					if(btn.innerHTML == 'View More +'){
+						btn.innerHTML = 'View Less -';
+					} else {
+						btn.innerHTML = 'View More +';
+					}
+			}
+		</script>
+		
+		<div class="container-fluid mw-xl">
+		<div class="row">
+			<div class="col-12 mb-3 mx-auto text-center">
+													<h2 class="display-2">A partner, not a vendor.</h2>						
+													<p class="pt-3 text-base">We develop deep, long-term relationships with our clients, whether they’re a major national brand or a local start-up. Bring us your business challenges — and we’ll roll up our sleeves and get to work.</p>
+							</div>
+		</div>
+			
+				<div class="row  pt-5">
+			<div class="col mb-md-3">
+							<div class="row logos-row g-2  nodesc">
+							<?php
+							  $partners = [
+							   "images/hello_logo_2.png.webp",
+							   "images/noggin_logo_2.png.webp",
+							   "images/bet_logo_2.png.webp",
+							   "images/citymd_logo_2.png.webp",
+							   "images/birchboc_logo_2.png.webp",
+							   "images/clover_logo_2.png.webp",
+							   "images/jh_logo_2.png.webp",
+							   "images/ufc_logo_2.png.webp"
+							  ];
+							  
+							  foreach($partners as $p)
+							  {
+							?>
+								  <div class="logo-item text-center first-selection my-auto  flexed">						
+													
+							<div class="mx-auto logo-holder" >
+								<picture class="d-inline-block mb-3">
+<source type="image/webp" data-lazy-srcset="{{$p}} 546w, {{$p}} 400w, {{$p}} 150w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20163&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 546px) 100vw, 546px"/>
+<img width="546" height="163" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20163&#039;%3E%3C/svg%3E" alt="" data-lazy-srcset="{{$p}} 546w, {{$p}} 400w,{{$p}} 150w" data-lazy-sizes="(max-width: 546px) 100vw, 546px" data-lazy-src="{{$p}}"/>
+</picture>
+<noscript>
+<picture class="d-inline-block mb-3">
+<source type="image/webp" srcset="<source type="image/webp" data-lazy-srcset="{{$p}} 546w, {{$p}} 400w, {{$p}} 150w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20163&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 546px) 100vw, 546px"/>
+<img width="546" height="163" src="{{$p}}" alt="" srcset="{{$p}} 546w, {{$p}} 400w,{{$p}} 150w" sizes="(max-width: 546px) 100vw, 546px"/>
+</picture>
+</noscript>							</div>
+								</div>
+							<?php
+							  }
+							?>
+										
+									</div>
+									<div class="row d-md-none d-flex">
+						<div class="col-12 py-5 text-center">
+							<a class="btn btn-primary logo-toggle" id="block_603bea155a384-logo-toggle" href="javascript:void(0)" >View More +</a>
+						</div>
+					</div>
+							</div>
+		</div>
+			</div>
+
+</section>
+
+<div>
+<div class="container-fluid mw-xl">
+<style>		
+#block_60e6159db9926 {
+	background: #1a7175;
+}
+#block_60e6159db9926 .text-box * {
+	color: #ffffff !important;
+}
+</style>	
+</div>
+</div>
+<section id="block_60e6159db9926" class="content-block  alignfull image-desc my-0 slim has-font-color text-default">	<div class="container-fluid mw-xl">
+		<div class="row flex-row-reverse align-items-stretch h-100">
+			<div class="col-lg-7 color-box align-self-stretch px-0">
+									<div data-bg="images/Screen-Shot-2021-05-18-at-9.53.25-AM.jpg" class="image-background h-100 rocket-lazyload" 
+						aria-hidden="true" 
+						style="">
+					</div>
+							</div>
+			<div class="col-lg-5 text-box  py-md-5 py-4">
+				<div class="py-4 px-md-4 mx-1 d-flex h-100 align-items-center">
+					<div>
+																							<h2 class="display-2 mb-4">Build your brand&#039;s social influence. </h2>
+																											<div class="mb-4"><p>Drive action and deepen brand trust with vetted influencers delivering reliable information and inspiration.</p>
+</div>
+																	<a class="small-font font-weight-600" href="javascript:void(0)" target="_self">Explore our influencer services.</a>
+											</div>
+				</div>
+			</div>		
+		</div>		
+	</div>
+</section>
+
+<div><div class="container-fluid mw-xl">
+
+
+<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+</div></div>
+
+<section id="block_6101ca3947903" class="content-block  alignfull logo-block py-5 has-font-color text-default">	<style>
+		#block_6101ca3947903 .logos-row .logo-item {			
+						flex: 1 0 12.5%;
+			max-width:12.5%;
+						
+		}
+	</style>	
+
+		<div class="container-fluid mw-xl">
+		<div class="row">
+			<div class="col-12 mb-3 mx-auto text-center">
+													<h2 class="display-2">Our work drives businesses forward.</h2>						
+													<p class="pt-3 text-base">We fuel brand growth and have the numbers to prove it. Here's just a few of our superior results. </p>
+							</div>
+		</div>
+			
+			</div>
+
+</section>
+
+<div><div class="container-fluid mw-xl">
+
+</div></div>
+
+<section id="block_603c3f13c5660" class="content-block  alignfull content-grid py-0 my-0 has-font-color text-default">
+					<div class="row mb-0 grid-line mx-0">
+															<div class="col-lg-4 col-sm-6 single-grid g-type-3 mb-0 p-0">
+											<div class="grid-in  withtext islinked" >
+		<a href="https://www.amsivedigital.com/clients/clover-health/" class="grid-link" ><span class="visually-hidden">Clover Health</span></a>		
+					<div class="image-background" aria-hidden="true">
+				<picture class="zoom-img">
+<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg.webp 461w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-408x400.jpg.webp 408w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-204x200.jpg.webp 204w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20461%20452&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 461px) 100vw, 461px"/>
+<img width="461" height="452" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20461%20452&#039;%3E%3C/svg%3E" alt="Clover" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg 461w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-408x400.jpg 408w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-204x200.jpg 204w" data-lazy-sizes="(max-width: 461px) 100vw, 461px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg"/>
+</picture>
+<noscript><picture class="zoom-img">
+<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg.webp 461w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-408x400.jpg.webp 408w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-204x200.jpg.webp 204w" sizes="(max-width: 461px) 100vw, 461px"/>
+<img width="461" height="452" src="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg" alt="Clover" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg 461w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-408x400.jpg 408w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-204x200.jpg 204w" sizes="(max-width: 461px) 100vw, 461px"/>
+</picture>
+</noscript>			</div>
+			
+			
+		<div class="text-start text-white grid-over">	
+			<div class="p-3 copy-holder">
+									<p class="gr-t mb-lg-4 mb-3 titillium-web font-weight-normal">Clover Health</p>
+													<div class="gr-sub display-2 text-white mb-lg-4 mb-3">3x Member Acquisition + Enrollment</div>
+													<p class="gr-cat text-start grid-cat pe-lg-5 me-lg-5">Creative, Video, Digital Media, SEO</p>
+											</div>	
+		</div>		
+	</div>
+												</div>		
+																<div class="col-lg-4 col-sm-6 single-grid g-type-3 mb-0 p-0">
+											<div class="grid-in  withtext islinked" >
+		<a href="https://www.amsivedigital.com/clients/recovery-center/" class="grid-link" ><span class="visually-hidden">Recovery Center</span></a>		
+					<div class="image-background" aria-hidden="true">
+				<picture class="zoom-img">
+<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg.webp 691w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-425x400.jpg.webp 425w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-213x200.jpg.webp 213w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-768x723.jpg.webp 768w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy.jpg.webp 850w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20691%20650&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 691px) 100vw, 691px"/>
+<img width="691" height="650" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20691%20650&#039;%3E%3C/svg%3E" alt="SEO_CaseStudy-Block_RecoveryVillage3 copy" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg 691w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-425x400.jpg 425w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-213x200.jpg 213w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-768x723.jpg 768w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy.jpg 850w" data-lazy-sizes="(max-width: 691px) 100vw, 691px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg"/>
+</picture>
+<noscript><picture class="zoom-img">
+<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg.webp 691w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-425x400.jpg.webp 425w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-213x200.jpg.webp 213w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-768x723.jpg.webp 768w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy.jpg.webp 850w" sizes="(max-width: 691px) 100vw, 691px"/>
+<img width="691" height="650" src="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg" alt="SEO_CaseStudy-Block_RecoveryVillage3 copy" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg 691w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-425x400.jpg 425w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-213x200.jpg 213w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-768x723.jpg 768w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy.jpg 850w" sizes="(max-width: 691px) 100vw, 691px"/>
+</picture>
+</noscript>			</div>
+			
+			
+		<div class="text-start text-white grid-over">	
+			<div class="p-3 copy-holder">
+									<p class="gr-t mb-lg-4 mb-3 titillium-web font-weight-normal">Recovery Center</p>
+													<div class="gr-sub display-2 text-white mb-lg-4 mb-3">+155% KPI Site-wide Phone Clicks</div>
+													<p class="gr-cat text-start grid-cat pe-lg-5 me-lg-5">SEO, UX Design, Performance Content</p>
+											</div>	
+		</div>		
+	</div>
+												</div>		
+																<div class="col-lg-4 col-sm-12 spec-case single-grid g-type-3 mb-0 p-0">
+											<div class="grid-in  withtext islinked" >
+		<a href="https://www.amsivedigital.com/clients/the-sak/" class="grid-link" ><span class="visually-hidden">The Sak</span></a>		
+					<div class="image-background" aria-hidden="true">
+				<picture class="zoom-img">
+<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png.webp 650w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-400x400.png.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-200x200.png.webp 200w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-768x768.png.webp 768w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x.png.webp 1000w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20650%20650&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 650px) 100vw, 650px"/>
+<img width="650" height="650" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20650%20650&#039;%3E%3C/svg%3E" alt="TheSak_CS_1x1@2x" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png 650w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-400x400.png 400w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-200x200.png 200w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-768x768.png 768w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x.png 1000w" data-lazy-sizes="(max-width: 650px) 100vw, 650px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png"/>
+</picture>
+<noscript><picture class="zoom-img">
+<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png.webp 650w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-400x400.png.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-200x200.png.webp 200w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-768x768.png.webp 768w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x.png.webp 1000w" sizes="(max-width: 650px) 100vw, 650px"/>
+<img width="650" height="650" src="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png" alt="TheSak_CS_1x1@2x" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png 650w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-400x400.png 400w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-200x200.png 200w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-768x768.png 768w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x.png 1000w" sizes="(max-width: 650px) 100vw, 650px"/>
+</picture>
+</noscript>			</div>
+			
+			
+		<div class="text-start text-white grid-over">	
+			<div class="p-3 copy-holder">
+									<p class="gr-t mb-lg-4 mb-3 titillium-web font-weight-normal">The Sak</p>
+													<div class="gr-sub display-2 text-white mb-lg-4 mb-3">+40% Ecommerce Growth</div>
+													<p class="gr-cat text-start grid-cat pe-lg-5 me-lg-5">Paid Search, Paid Social, SEO</p>
+											</div>	
+		</div>		
+	</div>
+												</div>		
+																
+													
+					</div>	
+			</section>
+
+
+
+
+
 @stop

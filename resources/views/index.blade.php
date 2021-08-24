@@ -240,7 +240,7 @@ $pcClass = "";
 <section id="block_60e6159db9926" class="content-block  alignfull image-desc my-0 slim has-font-color text-default">	<div class="container-fluid mw-xl">
 		<div class="row flex-row-reverse align-items-stretch h-100">
 			<div class="col-lg-7 color-box align-self-stretch px-0">
-									<div data-bg="images/Screen-Shot-2021-05-18-at-9.53.25-AM.jpg" class="image-background h-100 rocket-lazyload" 
+									<div data-bg="images/w1.jpg" class="image-background h-100 rocket-lazyload" 
 						aria-hidden="true" 
 						style="">
 					</div>

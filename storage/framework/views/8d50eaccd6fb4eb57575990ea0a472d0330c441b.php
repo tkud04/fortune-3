@@ -21,9 +21,9 @@
   <div class="container-fluid mw-xl hero-block-content pt-sm-5 mt-sm-5">
 	<div class="row h-100">
 	  <div class="col-md-7 text-start my-sm-3 my-4 text-white ">
-		<h1 class="hero-title display-1">We’re your data-driven brand growth engine.</h1>						
+		<h1 class="hero-title display-1">Marketing Communications and Consultancy</h1>						
 		<div class="d-none d-sm-block">
-		   <div class="hero-block-description py-3 h5">Amplify your business with our data-centric, performance-driven digital marketing solutions.</div>
+		   <div class="hero-block-description py-3 h5">Gorals is a boutique consulting company offering tailor-made marketing strategies and branding solutions.</div>
 		   <a class="btn btn-secondary" href="javascript:void(0)" target="_self">Explore</a>
 		</div>
 	  </div>

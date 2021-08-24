@@ -1,7 +1,7 @@
 window.onload = function() {
     const e = document.getElementsByTagName("html")[0],
         t = document.getElementsByTagName("body")[0],
-        n = document.getElementById("main-header"),
+        n = document.getElementById("mainn-header"),
         i = document.getElementById("page-content-container"),
         o = document.getElementById("togglemobh");
     let s = window.navigator.userAgent,

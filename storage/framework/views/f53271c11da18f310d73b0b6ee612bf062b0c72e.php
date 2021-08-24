@@ -293,83 +293,72 @@ $pcClass = "";
 
 <section id="block_603c3f13c5660" class="content-block  alignfull content-grid py-0 my-0 has-font-color text-default">
 					<div class="row mb-0 grid-line mx-0">
+					<?php
+					 $works = [
+					   ['img' => "images/Clover.jpg.webp",'href' => "javascript:void(0)",'title' => "Clover Health",'big_caption' => "3x Member Acquisition + Enrollment",'small_caption' => "Creative, Video, Digital Media, SEO"],
+					   ['img' => "images/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg.webp",'href' => "javascript:void(0)",'title' => "Recovery Center",'big_caption' => "+155% KPI Site-wide Phone Clicks",'small_caption' => "SEO, UX Design, Performance Content"],
+					   ['img' => "images/TheSak_CS_1x1@2x-650x650.png.webp",'href' => "javascript:void(0)",'title' => "The Sak",'big_caption' => "+40% Ecommerce Growth",'small_caption' => "Paid Search, Paid Social, SEO"],
+					 ];
+							  
+							  foreach($works as $w)
+							  {
+							?>
 															<div class="col-lg-4 col-sm-6 single-grid g-type-3 mb-0 p-0">
 											<div class="grid-in  withtext islinked" >
-		<a href="https://www.amsivedigital.com/clients/clover-health/" class="grid-link" ><span class="visually-hidden">Clover Health</span></a>		
+		<a href="<?php echo e($w['href']); ?>" class="grid-link" ><span class="visually-hidden"><?php echo e($w['title']); ?></span></a>		
 					<div class="image-background" aria-hidden="true">
 				<picture class="zoom-img">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg.webp 461w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-408x400.jpg.webp 408w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-204x200.jpg.webp 204w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20461%20452&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 461px) 100vw, 461px"/>
-<img width="461" height="452" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20461%20452&#039;%3E%3C/svg%3E" alt="Clover" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg 461w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-408x400.jpg 408w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-204x200.jpg 204w" data-lazy-sizes="(max-width: 461px) 100vw, 461px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg"/>
+<source type="image/webp" data-lazy-srcset="<?php echo e($w['img']); ?> 461w, <?php echo e($w['img']); ?> 408w, <?php echo e($w['img']); ?> 204w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20461%20452&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 461px) 100vw, 461px"/>
+<img width="461" height="452" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20461%20452&#039;%3E%3C/svg%3E" alt="<?php echo e($w['title']); ?>" data-lazy-srcset="<?php echo e($w['img']); ?> 461w, <?php echo e($w['img']); ?> 408w, <?php echo e($w['img']); ?> 204w" data-lazy-sizes="(max-width: 461px) 100vw, 461px" data-lazy-src="<?php echo e($w['img']); ?>"/>
 </picture>
 <noscript><picture class="zoom-img">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg.webp 461w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-408x400.jpg.webp 408w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-204x200.jpg.webp 204w" sizes="(max-width: 461px) 100vw, 461px"/>
-<img width="461" height="452" src="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg" alt="Clover" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover.jpg 461w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-408x400.jpg 408w, https://www.amsivedigital.com/wp-content/uploads/2021/05/Clover-204x200.jpg 204w" sizes="(max-width: 461px) 100vw, 461px"/>
+<source type="image/webp" srcset="<?php echo e($w['img']); ?> 461w, <?php echo e($w['img']); ?> 408w, <?php echo e($w['img']); ?> 204w" sizes="(max-width: 461px) 100vw, 461px"/>
+<img width="461" height="452" src="" alt="<?php echo e($w['title']); ?>" srcset="<?php echo e($w['img']); ?> 461w, <?php echo e($w['img']); ?> 408w, <?php echo e($w['img']); ?> 204w" sizes="(max-width: 461px) 100vw, 461px"/>
 </picture>
 </noscript>			</div>
 			
 			
 		<div class="text-start text-white grid-over">	
 			<div class="p-3 copy-holder">
-									<p class="gr-t mb-lg-4 mb-3 titillium-web font-weight-normal">Clover Health</p>
-													<div class="gr-sub display-2 text-white mb-lg-4 mb-3">3x Member Acquisition + Enrollment</div>
-													<p class="gr-cat text-start grid-cat pe-lg-5 me-lg-5">Creative, Video, Digital Media, SEO</p>
+									<p class="gr-t mb-lg-4 mb-3 titillium-web font-weight-normal"><?php echo e($w['title']); ?></p>
+													<div class="gr-sub display-2 text-white mb-lg-4 mb-3"><?php echo e($w['big_caption']); ?></div>
+													<p class="gr-cat text-start grid-cat pe-lg-5 me-lg-5"><?php echo e($w['small_caption']); ?></p>
 											</div>	
 		</div>		
 	</div>
-												</div>		
-																<div class="col-lg-4 col-sm-6 single-grid g-type-3 mb-0 p-0">
-											<div class="grid-in  withtext islinked" >
-		<a href="https://www.amsivedigital.com/clients/recovery-center/" class="grid-link" ><span class="visually-hidden">Recovery Center</span></a>		
-					<div class="image-background" aria-hidden="true">
-				<picture class="zoom-img">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg.webp 691w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-425x400.jpg.webp 425w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-213x200.jpg.webp 213w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-768x723.jpg.webp 768w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy.jpg.webp 850w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20691%20650&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 691px) 100vw, 691px"/>
-<img width="691" height="650" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20691%20650&#039;%3E%3C/svg%3E" alt="SEO_CaseStudy-Block_RecoveryVillage3 copy" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg 691w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-425x400.jpg 425w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-213x200.jpg 213w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-768x723.jpg 768w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy.jpg 850w" data-lazy-sizes="(max-width: 691px) 100vw, 691px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg"/>
-</picture>
-<noscript><picture class="zoom-img">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg.webp 691w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-425x400.jpg.webp 425w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-213x200.jpg.webp 213w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-768x723.jpg.webp 768w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy.jpg.webp 850w" sizes="(max-width: 691px) 100vw, 691px"/>
-<img width="691" height="650" src="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg" alt="SEO_CaseStudy-Block_RecoveryVillage3 copy" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg 691w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-425x400.jpg 425w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-213x200.jpg 213w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy-768x723.jpg 768w, https://www.amsivedigital.com/wp-content/uploads/2021/05/SEO_CaseStudy-Block_RecoveryVillage3-copy.jpg 850w" sizes="(max-width: 691px) 100vw, 691px"/>
-</picture>
-</noscript>			</div>
-			
-			
-		<div class="text-start text-white grid-over">	
-			<div class="p-3 copy-holder">
-									<p class="gr-t mb-lg-4 mb-3 titillium-web font-weight-normal">Recovery Center</p>
-													<div class="gr-sub display-2 text-white mb-lg-4 mb-3">+155% KPI Site-wide Phone Clicks</div>
-													<p class="gr-cat text-start grid-cat pe-lg-5 me-lg-5">SEO, UX Design, Performance Content</p>
-											</div>	
-		</div>		
-	</div>
-												</div>		
-																<div class="col-lg-4 col-sm-12 spec-case single-grid g-type-3 mb-0 p-0">
-											<div class="grid-in  withtext islinked" >
-		<a href="https://www.amsivedigital.com/clients/the-sak/" class="grid-link" ><span class="visually-hidden">The Sak</span></a>		
-					<div class="image-background" aria-hidden="true">
-				<picture class="zoom-img">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png.webp 650w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-400x400.png.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-200x200.png.webp 200w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-768x768.png.webp 768w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x.png.webp 1000w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20650%20650&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 650px) 100vw, 650px"/>
-<img width="650" height="650" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20650%20650&#039;%3E%3C/svg%3E" alt="TheSak_CS_1x1@2x" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png 650w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-400x400.png 400w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-200x200.png 200w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-768x768.png 768w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x.png 1000w" data-lazy-sizes="(max-width: 650px) 100vw, 650px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png"/>
-</picture>
-<noscript><picture class="zoom-img">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png.webp 650w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-400x400.png.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-200x200.png.webp 200w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-768x768.png.webp 768w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x.png.webp 1000w" sizes="(max-width: 650px) 100vw, 650px"/>
-<img width="650" height="650" src="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png" alt="TheSak_CS_1x1@2x" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-650x650.png 650w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-400x400.png 400w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-200x200.png 200w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x-768x768.png 768w, https://www.amsivedigital.com/wp-content/uploads/2021/04/TheSak_CS_1x1@2x.png 1000w" sizes="(max-width: 650px) 100vw, 650px"/>
-</picture>
-</noscript>			</div>
-			
-			
-		<div class="text-start text-white grid-over">	
-			<div class="p-3 copy-holder">
-									<p class="gr-t mb-lg-4 mb-3 titillium-web font-weight-normal">The Sak</p>
-													<div class="gr-sub display-2 text-white mb-lg-4 mb-3">+40% Ecommerce Growth</div>
-													<p class="gr-cat text-start grid-cat pe-lg-5 me-lg-5">Paid Search, Paid Social, SEO</p>
-											</div>	
-		</div>		
-	</div>
-												</div>		
-																
-													
+												</div>	
+                        <?php
+							}
+					     ?>										
 					</div>	
 			</section>
 
+
+<div>
+<div class="container-fluid mw-xl"></div>
+<style>
+				#blog_cta {
+					background-color: #fff;
+				}
+				#blog_cta h2 {
+					color: #7c0f81!important;
+				}
+</style>
+</div>
+
+
+<section id="blog_cta" class="content-block  alignwide adtheme-cta py-md-5 py-0 has-font-color text-default background-custom">
+			<div class="container-fluid mw-xl">
+								<div class="row py-md-2 py-5 px-md-0 px-3">
+					<div class="col-xl-7 col-md-6 py-md-4">
+													<h2 class="cta-title display-2 w-xl-75 me-5 me-md-0">Find out what we can do for your bottom line.</h2>
+																	<p class="cta-text mb-0 mt-4 px-md-2">Our flexible solutions will help you meet (and exceed) your business goals.</p>
+																										<a href="<?php echo e(url('contact')); ?>" target="_self" class="btn btn-primary mt-4" target="_self">
+							Let&#039;s Talk						</a>
+											</div>				
+				</div>		
+			</div>
+		</section>
 
 
 

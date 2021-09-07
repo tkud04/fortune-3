@@ -35,8 +35,8 @@ $pcClass = "";
 					<div class="col-lg-6">
 					 <?php
 					  $s1 = [
-					   ['img' => "images/homepage_icons_audience.svg",'title' => "Better audiences.",'text' => "Our proprietary XactAudience solution leverages an in-house database of 260M+ customers and 2,000+ custom variables to build custom predictive models to drive business growth — from only the best customers."],
-					   ['img' => "images/homepage_icons_persona.svg",'title' => "Better analytics.",'text' => "We think beyond just data reporting to deliver real-time insights with enterprise toolsets to turn data points into actionable opportunities."],
+					   ['img' => "images/homepage_icons_audience.svg",'title' => "Data-driven research",'text' => "We build brands through research! Goral specializes in data-centric research for advertising, branding and content marketing initiatives (PR)"],
+					   ['img' => "images/homepage_icons_persona.svg",'title' => "We solve marketing challenges.",'text' => "We think beyond just data reporting to deliver real-time insights with enterprise toolsets to turn data points into actionable opportunities."],
 					   ['img' => "images/homepage_icons_strategy.svg",'title' => "Better outcomes.",'text' => "We drive successful results — and then amplify them with holistic strategy, robust tactical solutions, and performance-driven creative."],
 					  ];
 					  

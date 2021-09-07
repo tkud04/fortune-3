@@ -236,7 +236,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 			<div class="col-12 col-lg-5 col-md-6 offset-lg-1">
 				<div class="row flex-column justify-content-between h-100">
 					<div class="col-12 text-start small-font pb-4">
-						<p>Gorals (formerly Path Interactive) is a pan-African marketing and communications agency providing data-driven market research, digital media, paid and managed social, analytics, creative, SEO, influencer marketing and web design and development services that help brands grow.</p>
+						<p>Gorals is a pan-African marketing and communications agency providing data-driven market research, digital media, paid and managed social, analytics, creative, SEO, influencer marketing and web design and development services that help brands grow.</p>
 					</div>
 					<div class="col-12 text-start pt-md-5">
 						<div class="widget gform_widget gform_widget-3"><link data-minify="1" rel='stylesheet' id='gform_basic-css'  href='css/basic.min.css?ver=1628889607' type='text/css' media='all' />

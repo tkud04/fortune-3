@@ -39,17 +39,17 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 	<!--
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Amsive Digital" />
+	<meta property="og:title" content="Gorals" />
 	<meta property="og:description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
 	<meta property="og:url" content="https://www.amsivedigital.com/" />
-	<meta property="og:site_name" content="Amsive Digital" />
+	<meta property="og:site_name" content="Gorals" />
 	<meta property="article:publisher" content="https://www.facebook.com/amsivedigital" />
 	<meta property="article:modified_time" content="2021-08-10T14:30:36+00:00" />
 	<meta property="og:image" content="https://www.amsivedigital.com/wp-content/uploads/2021/06/Amsive_social.jpg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="628" />
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Amsive Digital" />
+	<meta name="twitter:title" content="Gorals" />
 	<meta name="twitter:image" content="https://www.amsivedigital.com/wp-content/uploads/2021/06/Amsive_social.jpg" />
 	<meta name="twitter:site" content="@amsive_digital" />
 	-->
@@ -102,7 +102,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 <header class="site-header showtop tinny fixed-top" id="mainn-header">
 							<div id="top-bar" class="bg-primary-2 py-2">
 						<div class="container-fluid mw-xl text-center text-white">
-							<div class="py-1"><p><a href="javascript:void(0)">PATH INTERACTIVE IS NOW AMSIVE DIGITAL.</a></p>
+							<div class="py-1"><p><a href="javascript:void(0)">PATH INTERACTIVE IS NOW Gorals.</a></p>
 </div>
 						</div>
 					</div>
@@ -111,8 +111,8 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 				<div class="navbar-header d-flex justify-content-between py-lg-4 py-3">
 					<div class="logo-wrap">
 												<a class="logo" href="{{url('/')}}" id="site-logo"
-						   title="Amsive Digital" rel="home">
-							<div class="svg-logo"><canvas id="iesvg"></canvas><svg id="Amsive_Digital_-_Logo_Multi" data-name="Amsive Digital - Logo Multi" xmlns="http://www.w3.org/2000/svg" width="199" height="81" viewBox="0 0 415.703 169.939">
+						   title="Gorals" rel="home">
+							<div class="svg-logo"><canvas id="iesvg"></canvas><svg id="Amsive_Digital_-_Logo_Multi" data-name="Gorals - Logo Multi" xmlns="http://www.w3.org/2000/svg" width="199" height="81" viewBox="0 0 415.703 169.939">
   <g id="Group_61" data-name="Group 61" transform="translate(0 0)">
     <path id="Path_57" data-name="Path 57" d="M1667.22,460.163,1643.4,384.9h16.753l17.979,63.707,17.979-63.707h16.732l-23.82,75.263Z" transform="translate(-1364.172 -383.32)" fill="#7C0080"/>
     <rect id="Rectangle_107" data-name="Rectangle 107" width="15.63" height="75.263" transform="translate(253.371 1.58)" fill="#7C0080"/>
@@ -212,23 +212,23 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 				<div class="row flex-lg-column justify-content-between h-100">
 					<div class="col-lg-12 col-md-6 col-12 text-lg-start text-md-center text-start">
 														<a class="footer-logo d-inline-block" href="{{url('/')}}" 
-								   title="Amsive Digital" rel="home">
-									<img class="footer-logo" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20145%2059'%3E%3C/svg%3E" alt="Amsive Digital" width="145" height="59" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Amsive-Digital-Logo-White.svg" /><noscript><img class="footer-logo" src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Amsive-Digital-Logo-White.svg" alt="Amsive Digital" width="145" height="59" /></noscript>
+								   title="Gorals" rel="home">
+									<img class="footer-logo" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20145%2059'%3E%3C/svg%3E" alt="Gorals" width="145" height="59" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Amsive-Digital-Logo-White.svg" /><noscript><img class="footer-logo" src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Amsive-Digital-Logo-White.svg" alt="Gorals" width="145" height="59" /></noscript>
 								</a>
 											</div>
 											
 					<div class="col-lg-12 col-md-6 col-12 text-start pt-3 social-foot">
 													<a href="javascript:void(0)" target="_blank" rel="noopener">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Visit Amsive Digital on Facebook</title><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Visit Gorals on Facebook</title><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg>
 							</a>
 																			<a href="javascript:void(0)" target="_blank" rel="noopener">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Visit Amsive Digital on Instagram</title><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Visit Gorals on Instagram</title><path d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z"/></svg>
 							</a>
 																			<a href="javascript:void(0)" target="_blank" rel="noopener">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Visit Amsive Digital on LinkedIn</title><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Visit Gorals on LinkedIn</title><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
 							</a>
 																			<a href="javascript:void(0)" target="_blank" rel="noopener">
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Visit Amsive Digital on Twitter</title><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-82.3 364.2c-8.5 9.1-31.2 19.8-60.9 19.8-75.5 0-91.9-55.5-91.9-87.9v-90h-29.7c-3.4 0-6.2-2.8-6.2-6.2v-42.5c0-4.5 2.8-8.5 7.1-10 38.8-13.7 50.9-47.5 52.7-73.2.5-6.9 4.1-10.2 10-10.2h44.3c3.4 0 6.2 2.8 6.2 6.2v72h51.9c3.4 0 6.2 2.8 6.2 6.2v51.1c0 3.4-2.8 6.2-6.2 6.2h-52.1V321c0 21.4 14.8 33.5 42.5 22.4 3-1.2 5.6-2 8-1.4 2.2.5 3.6 2.1 4.6 4.9l13.8 40.2c1 3.2 2 6.7-.3 9.1z"/></svg>
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Visit Gorals on Twitter</title><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-82.3 364.2c-8.5 9.1-31.2 19.8-60.9 19.8-75.5 0-91.9-55.5-91.9-87.9v-90h-29.7c-3.4 0-6.2-2.8-6.2-6.2v-42.5c0-4.5 2.8-8.5 7.1-10 38.8-13.7 50.9-47.5 52.7-73.2.5-6.9 4.1-10.2 10-10.2h44.3c3.4 0 6.2 2.8 6.2 6.2v72h51.9c3.4 0 6.2 2.8 6.2 6.2v51.1c0 3.4-2.8 6.2-6.2 6.2h-52.1V321c0 21.4 14.8 33.5 42.5 22.4 3-1.2 5.6-2 8-1.4 2.2.5 3.6 2.1 4.6 4.9l13.8 40.2c1 3.2 2 6.7-.3 9.1z"/></svg>
 							</a>
 											</div>
 				</div>
@@ -236,7 +236,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 			<div class="col-12 col-lg-5 col-md-6 offset-lg-1">
 				<div class="row flex-column justify-content-between h-100">
 					<div class="col-12 text-start small-font pb-4">
-						<p>Amsive Digital (formerly Path Interactive) is an NYC-born digital marketing agency with a national presence, providing data-driven SEO, digital media, paid and managed social, analytics, creative, influencer marketing and web design and development services that help brands grow.</p>
+						<p>Gorals (formerly Path Interactive) is a pan-African marketing and communications agency providing data-driven market research, digital media, paid and managed social, analytics, creative, SEO, influencer marketing and web design and development services that help brands grow.</p>
 					</div>
 					<div class="col-12 text-start pt-md-5">
 						<div class="widget gform_widget gform_widget-3"><link data-minify="1" rel='stylesheet' id='gform_basic-css'  href='css/basic.min.css?ver=1628889607' type='text/css' media='all' />
@@ -293,7 +293,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 		
 		<div class="row copyright titillium-web py-3 mt-2">
 			<div class="col-12 col-md-6 text-center text-md-start my-auto">
-				<p>&copy; {{date("Y")}} Amsive Digital. All rights reserved.</p>
+				<p>&copy; {{date("Y")}} Gorals. All rights reserved.</p>
 			</div>
 			<div class="col-12 col-md-6 text-center text-md-end  my-auto">
 				<div class="widget widget_nav_menu nav_menu-6"><div class="menu-copyright-menu-container">

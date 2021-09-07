@@ -181,17 +181,11 @@ $pcClass = "";
 			<div class="col mb-md-3">
 							<div class="row logos-row g-2  nodesc">
 							<?php
-							  $partners = [
-							   "images/hello_logo_2.png.webp",
-							   "images/noggin_logo_2.png.webp",
-							   "images/bet_logo_2.png.webp",
-							   "images/citymd_logo_2.png.webp",
-							   "images/birchboc_logo_2.png.webp",
-							   "images/clover_logo_2.png.webp",
-							   "images/jh_logo_2.png.webp",
-							   "images/ufc_logo_2.png.webp"
-							  ];
-							  
+							  $partners = [];
+							  for($i = 1; $i < 18; $i++)
+							  {
+								array_push($partners, "images/client-".$i.".jpg");
+							  }
 							  foreach($partners as $p)
 							  {
 							?>

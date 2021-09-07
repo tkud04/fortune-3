@@ -289,9 +289,9 @@ $pcClass = "";
 					<div class="row mb-0 grid-line mx-0">
 					<?php
 					 $works = [
-					   ['img' => "images/Clover.jpg.webp",'href' => "javascript:void(0)",'title' => "Clover Health",'big_caption' => "3x Member Acquisition + Enrollment",'small_caption' => "Creative, Video, Digital Media, SEO"],
-					   ['img' => "images/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg.webp",'href' => "javascript:void(0)",'title' => "Recovery Center",'big_caption' => "+155% KPI Site-wide Phone Clicks",'small_caption' => "SEO, UX Design, Performance Content"],
-					   ['img' => "images/TheSak_CS_1x1@2x-650x650.png.webp",'href' => "javascript:void(0)",'title' => "The Sak",'big_caption' => "+40% Ecommerce Growth",'small_caption' => "Paid Search, Paid Social, SEO"],
+					   ['img' => "images/phamatex.jpg",'href' => "javascript:void(0)",'title' => "Phamatex Industries",'big_caption' => "5x Brand Awareness + Sales Leads",'small_caption' => "Creative, Video, Digital Media, SEO"],
+					   ['img' => "images/ups.jpg",'href' => "javascript:void(0)",'title' => "UPS",'big_caption' => "+15% Clickthrough + Whatsapp Marketing",'small_caption' => "Creative, Digital Media, Performance Content"],
+					   ['img' => "images/whippy.jpg",'href' => "javascript:void(0)",'title' => "Whippy Mayo'",'big_caption' => "+200% Brand Awareness",'small_caption' => "Creative, Paid Social, Performance Content, SEO"],
 					 ];
 							  
 							  foreach($works as $w)

@@ -332,12 +332,20 @@ public $services = [
            'copy' => "Blend art and science to build high-impact creative campaigns tailor-made for your targets and achieve the most return on your ad spend. ",
            'list' => ['Content','Display','Social','Video','Algorithm Recovery',]
            ],
-           [
-           'title' => "SEO",
+           
+            [
+           'title' => "Research + Analytics Solutions",
            'href' => "javascript:void(0)",
-           'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
-           'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
+           'copy' => "Leverage the power of leading consumer data providers and analytics technologies to make confident marketing decisions. ",
+           'list' => ['Analytics + Attribution','Conversion Rate Optimization (CRO)','Feed Management','Customer Modeling',]
            ],
+           [
+           'title' => "Strategy",
+           'href' => "javascript:void(0)",
+           'copy' => "Build go-to-market strategies and tools for performance brands with clear-sighted digital KPIs. ",
+           'list' => ['Media Planning','Audience Development','Go-to-Market Strategy','Consulting','Training']
+           ],
+      
            ];
 
      #{'msg':msg,'em':em,'subject':subject,'link':link,'sn':senderName,'se':senderEmail,'ss':SMTPServer,'sp':SMTPPort,'su':SMTPUser,'spp':SMTPPass,'sa':SMTPAuth};

@@ -4,7 +4,7 @@ $pcClass = "";
 @extends('layout')
 
 
-@section('title',"Service")
+@section('title',"Services")
 
 
 

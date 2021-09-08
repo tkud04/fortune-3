@@ -62,10 +62,10 @@ $pcClass = "";
             	$ll = $s['list'];
            ?>
            	<div class="col-md-6 link-box detailed-what text-start mb-md-0 mb-3 ww-active">
-					<a class="long-arrow" href="{{$s['href']}}" target="_self">
+					<a class="long-arrow" href="{{$l['href']}}" target="_self">
 					<div class="ser-box h-100 px-md-5 px-3 pt-md-4 pb-md-4 py-3 text-start border-bottom position-relative">
-						<div class="h3 text-start titillium-web">{{$s['title']}}</div> 
-					    <div class="mt-2 text-base small-font">{{$s['copy']}} </div> 
+						<div class="h3 text-start titillium-web">{{$l['title']}}</div> 
+					    <div class="mt-2 text-base small-font">{{$l['copy']}} </div> 
 				        <div class="detailed-in-lines pt-4 d-none d-md-block">
 						   <div class="row">
 							 <?php
@@ -104,5 +104,76 @@ $pcClass = "";
     </div>
   </div>
 </div>
+<script type="rocketlazyloadscript">
+		var actContainer = document.getElementById("block_6039a30e274c4");
+		var btns = actContainer.getElementsByClassName("link-box");
+
+			for (var i = 0; i < btns.length; i++) {
+				btns[i].addEventListener("mouseover", function() {
+					var current = document.getElementsByClassName("ww-active");
+					current[0].classList.remove("ww-active");
+					this.classList.add("ww-active");
+				});
+			}
+	</script>
+</section>
+
+<style>
+				#block_607ce454636b8 {
+										background: #404040;
+															color: #ffffff;
+									}
+				#block_607ce454636b8 svg * {
+										fill: #ffffff;
+									}
+			</style>
+		</div></div>
+
+<section id="block_607ce454636b8" class="content-block  alignfull background-404040 py-md-5 py-4 adtheme-cta has-font-color text-default">			
+  <div class="container-fluid mw-xl">
+	<div class="row py-md-2 px-md-0 px-3">
+	  <div class="col-md-10 offset-md-1 text-center py-md-4">
+			<h2 class="cta-title display-2">Custom solutions for unique business challenges.</h2>
+		    <p class="cta-text mb-0 mt-4 px-md-2">One-size-fits-all solutions don&#039;t work. We build holistic strategies for your brand. And we customize our approach for each client we serve.</p>
+	  </div>
+	</div>		
+   </div>
+</section>
+
+<div>
+  <div class="container-fluid mw-xl">
+    <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+   </div>
+</div>
+
+<section id="block_60b058f083816" class="content-block  alignfull content-grid py-0 my-0 has-font-color text-default">
+  <div class="row mb-0 grid-line mx-0">
+    <div class="col-12 single-grid g-type-1 text-center mb-0 p-0">
+	  <div class="grid-in  withtext islinked custom-grid force-img h-100" >
+		<a href="javascript:void(0)" class="grid-link" ><span class="visually-hidden">Phamatex Industries</span></a>		
+					<div class="image-background" aria-hidden="true">
+				<picture class="zoom-img">
+                 <source type="image/webp" data-lazy-srcset="images/phamatex.jpg 1950w, images/phamatex.jpg 1200w, images/phamatex.jpg 600w, images/phamatex.jpg 768w, images/phamatex.jpg 1536w, images/phamatex.jpg 2048w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%201170%20390&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 1170px) 100vw, 1170px"/>
+                 <img width="1170" height="390" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%201170%20390&#039;%3E%3C/svg%3E" alt="Phamatex" data-lazy-srcset="images/phamatex.jpg 1950w, images/phamatex.jpg 1200w, images/phamatex.jpg 600w, images/phamatex.jpg 768w, images/phamatex.jpg 1536w, images/phamatex.jpg 2048w" data-lazy-sizes="(max-width: 1170px) 100vw, 1170px" data-lazy-src="images/phamatex.jpg"/>
+                </picture>
+<noscript><picture class="zoom-img">
+<source type="image/webp" srcset="images/phamatex.jpg 1950w, images/phamatex.jpg 1200w, images/phamatex.jpg 600w, images/phamatex.jpg 768w, images/phamatex.jpg 1536w, images/phamatex.jpg 2048w" sizes="(max-width: 1170px) 100vw, 1170px"/>
+<img width="1170" height="390" src="images/phamatex.jpg" alt="Phamatex" srcset="images/phamatex.jpg 1950w, images/phamatex.jpg 1200w, images/phamatex.jpg 600w, images/phamatex.jpg 768w, images/phamatex.jpg 1536w, images/phamatex.jpg 2048w" sizes="(max-width: 1170px) 100vw, 1170px"/>
+</picture>
+</noscript>			</div>
+			
+			
+		<div class="text-start text-white row mx-md-4 text-top h-100 mx-0">	
+			<div class="col-lg-4 col-md-6 col-10 offset-1 offset-md-0 py-5 my-auto">
+									<p class="gr-t mb-lg-4 mb-3 titillium-web font-weight-normal">Phamatex Industries</p>
+													<div class="gr-sub display-2 text-white mb-lg-4 mb-3">5x Brand Awareness + Sales Leads</div>
+													<p class="gr-cat text-start grid-cat pe-lg-5 me-lg-5">Creative, Video, Digital Media, SEO</p>
+													<div class="text-start small-font"></div>
+							</div>	
+		</div>		
+	</div>
+																
+				</div>
+					</div>	
 </section>
 @stop

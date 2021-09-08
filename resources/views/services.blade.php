@@ -65,7 +65,7 @@ $pcClass = "";
 					<a class="long-arrow" href="{{$s['href']}}" target="_self">
 					<div class="ser-box h-100 px-md-5 px-3 pt-md-4 pb-md-4 py-3 text-start border-bottom position-relative">
 						<div class="h3 text-start titillium-web">{{$s['title']}}</div> 
-					    <div class="mt-2 text-base small-font">{{$l['copy']}} </div> 
+					    <div class="mt-2 text-base small-font">{{$s['copy']}} </div> 
 				        <div class="detailed-in-lines pt-4 d-none d-md-block">
 						   <div class="row">
 							 <?php

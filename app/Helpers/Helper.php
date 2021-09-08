@@ -307,6 +307,13 @@ public $information_types = [
    ],
  ];
 
+public $services = [
+           'title' => "SEO",
+           'href' => "javascript:void(0)",
+           'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
+           'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
+           ];
+
      #{'msg':msg,'em':em,'subject':subject,'link':link,'sn':senderName,'se':senderEmail,'ss':SMTPServer,'sp':SMTPPort,'su':SMTPUser,'spp':SMTPPass,'sa':SMTPAuth};
            function sendEmailSMTP($data,$view,$type="view")
            {

@@ -321,16 +321,16 @@ public $services = [
            'list' => ['Paid Search','Programmatic + Display','Paid Social','Shopping','Amazon','Video + OTT']
            ],
            [
-           'title' => "SEO",
+           'title' => "Social",
            'href' => "javascript:void(0)",
-           'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
-           'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
+           'copy' => "Scalable paid, organic, and influencer strategies to drive discovery, engage your audiences, and increase ROAS. ",
+           'list' => ['Paid Social','Earned + Owned Social','Website + Experience Design',]
            ],
            [
-           'title' => "SEO",
+           'title' => "Performance Creative",
            'href' => "javascript:void(0)",
-           'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
-           'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
+           'copy' => "Blend art and science to build high-impact creative campaigns tailor-made for your targets and achieve the most return on your ad spend. ",
+           'list' => ['Content','Display','Social','Video','Algorithm Recovery',]
            ],
            [
            'title' => "SEO",

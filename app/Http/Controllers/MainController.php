@@ -44,6 +44,31 @@ class MainController extends Controller {
 		
     	return view("index",compact(['user','banners','pe','signals','plugins']));
     }
+
+/**
+	 * Show the application service screen to the user.
+	 *
+	 * @return Response
+	 */
+	public function getServices(Request $request)
+    {
+		$user = null;
+		if(Auth::check())
+		{
+			$user = Auth::user();
+		}
+		
+		$req = $request->all();
+          
+                $services = $this->helpers->services;
+		$signals = $this->helpers->signals;
+		$pe = $this->helpers->getPhoneAndEmail();
+		$plugins = $this->helpers->getPlugins();
+		$banners = $this->helpers->getBanners();
+		
+    	return view("services",compact(['user','services','banners','pe','signals','plugins']));
+    }
+	
 	
 	/**
 	 * Show the application service screen to the user.

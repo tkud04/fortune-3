@@ -56,13 +56,7 @@ $pcClass = "";
   	<div class="col-12 mb-3">
   	  <div class="row link-box-wrap g-md-4 g-2" id="link-box-wrap">
   	    <?php
-           $services = [
-           'title' => "SEO",
-           'href' => "javascript:void(0)",
-           'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
-           'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
-           ];
-           
+                   
             foreach($services as $s)
             {
             	$ll = $s['list'];

@@ -314,6 +314,30 @@ public $services = [
            'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
            'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
            ],
+           [
+           'title' => "Paid Media",
+           'href' => "javascript:void(0)",
+           'copy' => "We dive deep into your business to craft campaigns with real and quantifiable ROI. ",
+           'list' => ['Paid Search','Programmatic + Display','Paid Social','Shopping','Amazon','Video + OTT']
+           ],
+           [
+           'title' => "SEO",
+           'href' => "javascript:void(0)",
+           'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
+           'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
+           ],
+           [
+           'title' => "SEO",
+           'href' => "javascript:void(0)",
+           'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
+           'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
+           ],
+           [
+           'title' => "SEO",
+           'href' => "javascript:void(0)",
+           'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
+           'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
+           ],
            ];
 
      #{'msg':msg,'em':em,'subject':subject,'link':link,'sn':senderName,'se':senderEmail,'ss':SMTPServer,'sp':SMTPPort,'su':SMTPUser,'spp':SMTPPass,'sa':SMTPAuth};

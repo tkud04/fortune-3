@@ -36,6 +36,15 @@ $sc = [
   'title' => "Holistic + transparent approach to maximize returns.",
   'copy' => "<p>From identifying business goals to retargeting performance, our expert team communicates directly with yours. We proactively adapt to any changes in goals and strategies, campaign results, the marketplace. Our team, while always growing, is dedicated and close-knit so you can work with the same people year after year.</p>"
 ];
+
+$scl = [
+  'img' => "images/whippy.jpg",
+  'title' => "Whippy Mayo'",
+  'num' => "+200%",
+  'subtitle' => "Brand Awareness ",
+  'copy' => "Driven by both established and new customers, we created social marketing campaigns that supported moving unsold Whippy Mayo' to new markets across Nigeria. Strategy was to create an entirely new level of brand demand. "
+];
+
 ?>
 @include('service-header',$sh)
 @include('service-list',$sl)
@@ -210,6 +219,6 @@ $sc = [
 </section>
 
 
-@include('service-client',[])
+@include('service-client',$scl)
 @include('service-footer',['services' => $services])
 @stop

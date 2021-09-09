@@ -5,6 +5,7 @@ $plugins = [];
 $signals = ['okays' => []];
 $user = null;
 $banners = [];
+$services = [];
 if(Auth::check()) $user = Auth::user();
 ?>
 @extends('layout')

@@ -75,7 +75,7 @@ class MainController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function getService(Request $request)
+	public function getService(Request $request, $n)
     {
 		$user = null;
 		if(Auth::check())
@@ -84,13 +84,20 @@ class MainController extends Controller {
 		}
 		
 		$req = $request->all();
-
+                if($n == null)
+                {
+                  return redirect()->intended('/');
+                }
+                else
+                {
 		$signals = $this->helpers->signals;
 		$pe = $this->helpers->getPhoneAndEmail();
 		$plugins = $this->helpers->getPlugins();
 		$banners = $this->helpers->getBanners();
 		
-    	return view("service",compact(['user','banners','pe','signals','plugins']));
+                $v = "service-".{$n};
+                
+    	        return view($v,compact(['user','banners','pe','signals','plugins']));
     }
 	
 	

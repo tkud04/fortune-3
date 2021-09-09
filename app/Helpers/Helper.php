@@ -310,38 +310,38 @@ public $information_types = [
 public $services = [
            [
            'title' => "SEO",
-           'href' => "javascript:void(0)",
+           'href' => "service-seo",
            'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
            'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
            ],
            [
            'title' => "Paid Media",
-           'href' => "javascript:void(0)",
+           'href' => "service-paid-media",
            'copy' => "We dive deep into your business to craft campaigns with real and quantifiable ROI. ",
            'list' => ['Paid Search','Programmatic + Display','Paid Social','Shopping','Amazon','Video + OTT']
            ],
            [
            'title' => "Social",
-           'href' => "javascript:void(0)",
+           'href' => "service-social",
            'copy' => "Scalable paid, organic, and influencer strategies to drive discovery, engage your audiences, and increase ROAS. ",
            'list' => ['Paid Social','Earned + Owned Social','Website + Experience Design',]
            ],
            [
            'title' => "Performance Creative",
-           'href' => "javascript:void(0)",
+           'href' => "service-performance-creative",
            'copy' => "Blend art and science to build high-impact creative campaigns tailor-made for your targets and achieve the most return on your ad spend. ",
            'list' => ['Content','Display','Social','Video','Algorithm Recovery',]
            ],
            
             [
            'title' => "Research + Analytics Solutions",
-           'href' => "javascript:void(0)",
+           'href' => "service-research-analytics-solutions",
            'copy' => "Leverage the power of leading consumer data providers and analytics technologies to make confident marketing decisions. ",
            'list' => ['Analytics + Attribution','Conversion Rate Optimization (CRO)','Feed Management','Customer Modeling',]
            ],
            [
            'title' => "Strategy",
-           'href' => "javascript:void(0)",
+           'href' => "service-strategy",
            'copy' => "Build go-to-market strategies and tools for performance brands with clear-sighted digital KPIs. ",
            'list' => ['Media Planning','Audience Development','Go-to-Market Strategy','Consulting','Training']
            ],

@@ -95,10 +95,10 @@ class MainController extends Controller {
 		$plugins = $this->helpers->getPlugins();
 		$banners = $this->helpers->getBanners();
 		
-                $v = "service-".{$n};
+                $v = "service-".$n;
+                return view($v,compact(['user','banners','pe','signals','plugins']));
                 }
                 
-    	        return view($v,compact(['user','banners','pe','signals','plugins']));
     }
 	
 	

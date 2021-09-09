@@ -35,8 +35,8 @@ $pcClass = "";
 					<div class="col-lg-6">
 					 <?php
 					  $s1 = [
-					   ['img' => "images/homepage_icons_audience.svg",'title' => "Better audiences.",'text' => "Our proprietary XactAudience solution leverages an in-house database of 260M+ customers and 2,000+ custom variables to build custom predictive models to drive business growth — from only the best customers."],
-					   ['img' => "images/homepage_icons_persona.svg",'title' => "Better analytics.",'text' => "We think beyond just data reporting to deliver real-time insights with enterprise toolsets to turn data points into actionable opportunities."],
+					   ['img' => "images/homepage_icons_audience.svg",'title' => "Data-driven research",'text' => "We build brands through research! Goral specializes in data-centric research for advertising, branding and content marketing initiatives (PR)"],
+					   ['img' => "images/homepage_icons_persona.svg",'title' => "We solve marketing challenges.",'text' => "We think beyond just data reporting to deliver real-time insights with enterprise toolsets to turn data points into actionable opportunities."],
 					   ['img' => "images/homepage_icons_strategy.svg",'title' => "Better outcomes.",'text' => "We drive successful results — and then amplify them with holistic strategy, robust tactical solutions, and performance-driven creative."],
 					  ];
 					  
@@ -181,17 +181,11 @@ $pcClass = "";
 			<div class="col mb-md-3">
 							<div class="row logos-row g-2  nodesc">
 							<?php
-							  $partners = [
-							   "images/hello_logo_2.png.webp",
-							   "images/noggin_logo_2.png.webp",
-							   "images/bet_logo_2.png.webp",
-							   "images/citymd_logo_2.png.webp",
-							   "images/birchboc_logo_2.png.webp",
-							   "images/clover_logo_2.png.webp",
-							   "images/jh_logo_2.png.webp",
-							   "images/ufc_logo_2.png.webp"
-							  ];
-							  
+							  $partners = [];
+							  for($i = 1; $i < 18; $i++)
+							  {
+								array_push($partners, "images/client-".$i.".jpg");
+							  }
 							  foreach($partners as $p)
 							  {
 							?>
@@ -295,9 +289,9 @@ $pcClass = "";
 					<div class="row mb-0 grid-line mx-0">
 					<?php
 					 $works = [
-					   ['img' => "images/Clover.jpg.webp",'href' => "javascript:void(0)",'title' => "Clover Health",'big_caption' => "3x Member Acquisition + Enrollment",'small_caption' => "Creative, Video, Digital Media, SEO"],
-					   ['img' => "images/SEO_CaseStudy-Block_RecoveryVillage3-copy-691x650.jpg.webp",'href' => "javascript:void(0)",'title' => "Recovery Center",'big_caption' => "+155% KPI Site-wide Phone Clicks",'small_caption' => "SEO, UX Design, Performance Content"],
-					   ['img' => "images/TheSak_CS_1x1@2x-650x650.png.webp",'href' => "javascript:void(0)",'title' => "The Sak",'big_caption' => "+40% Ecommerce Growth",'small_caption' => "Paid Search, Paid Social, SEO"],
+					   ['img' => "images/phamatex.jpg",'href' => "javascript:void(0)",'title' => "Phamatex Industries",'big_caption' => "5x Brand Awareness + Sales Leads",'small_caption' => "Creative, Video, Digital Media, SEO"],
+					   ['img' => "images/ups.jpg",'href' => "javascript:void(0)",'title' => "UPS",'big_caption' => "+15% Clickthrough + Whatsapp Marketing",'small_caption' => "Creative, Digital Media, Performance Content"],
+					   ['img' => "images/whippy.jpg",'href' => "javascript:void(0)",'title' => "Whippy Mayo'",'big_caption' => "+200% Brand Awareness",'small_caption' => "Creative, Paid Social, Performance Content, SEO"],
 					 ];
 							  
 							  foreach($works as $w)

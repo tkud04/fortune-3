@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="60" viewBox="0 0 200 60">
+  <defs>
+    <clipPath id="clip-Optimize_200x60_Black_2">
+      <rect width="200" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Optimize_200x60_Black_2" data-name="Optimize_200x60_Black – 2" clip-path="url(#clip-Optimize_200x60_Black_2)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(0.542 9.549)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(0)">
+        <g id="Group_19" data-name="Group 19" transform="translate(0)">
+          <g id="Group_18" data-name="Group 18">
+            <path id="Path_100" data-name="Path 100" d="M163.476,381.236a5.657,5.657,0,0,0-5.722-5.526H143v11.051h9.556v9.293a5.422,5.422,0,0,0,5.113,5.715c.065,0,.131.007.2.007a5.665,5.665,0,0,0,5.607-5.722h0V381.236Z" transform="translate(-137.353 -360.874)" fill="#bdbdbd"/>
+            <circle id="Ellipse_4" data-name="Ellipse 4" cx="5.582" cy="5.582" r="5.582" transform="translate(0 14.846)" fill="#bdbdbd"/>
+            <path id="Path_101" data-name="Path 101" d="M380.164,5.554A5.607,5.607,0,0,0,374.555,0h-15.09a5.61,5.61,0,0,0,0,11.163h9.667v9.284a5.526,5.526,0,1,0,11.043.451c.007-.149.007-.3,0-.449Z" transform="translate(-340.42 0)" fill="#bdbdbd"/>
+          </g>
+          <text id="Optimize" transform="translate(69.916 31.387)" fill="#bdbdbd" font-size="33" font-family="Helvetica"><tspan x="0" y="0">O</tspan><tspan y="0" letter-spacing="-0.02em">p</tspan><tspan y="0">timi</tspan><tspan y="0" letter-spacing="-0.01em">z</tspan><tspan y="0">e</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -90,13 +90,14 @@ class MainController extends Controller {
                 }
                 else
                 {
-		$signals = $this->helpers->signals;
-		$pe = $this->helpers->getPhoneAndEmail();
-		$plugins = $this->helpers->getPlugins();
-		$banners = $this->helpers->getBanners();
+			      $services = $this->helpers->services;
+		          $signals = $this->helpers->signals;
+		          $pe = $this->helpers->getPhoneAndEmail();
+		           $plugins = $this->helpers->getPlugins();
+		          $banners = $this->helpers->getBanners();
 		
                 $v = "service-".$n;
-                return view($v,compact(['user','banners','pe','signals','plugins']));
+                return view($v,compact(['user','services','banners','pe','signals','plugins']));
                 }
                 
     }

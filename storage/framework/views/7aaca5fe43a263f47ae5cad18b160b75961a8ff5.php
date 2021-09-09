@@ -1,16 +1,16 @@
 <?php
 $pcClass = "";
 ?>
-@extends('layout')
-
-
-@section('title',"Research + Analytics Solutions")
 
 
 
-@section('bodyClass',"page-paid-media noawesome hashero-color hashero")
+<?php $__env->startSection('title',"Research + Analytics Solutions"); ?>
 
-@section('content')
+
+
+<?php $__env->startSection('bodyClass',"page-paid-media noawesome hashero-color hashero"); ?>
+
+<?php $__env->startSection('content'); ?>
 <?php
 $sh = [
   'subtitle' => "Research + Analytics Solutions",
@@ -38,9 +38,11 @@ $sc = [
   'copy' => "<p>More granular than Google or Adobe Analytics, we first conduct tracking audits, understand sales cycles, implement pixels, test models, customize dashboards, and create ongoing reports — then we test. We offer complete quality assurance to ensure pixel firing, determine data accuracy, implement additional A/B testing, and update based on continual findings.</p>"
 ];
 ?>
-@include('service-header',$sh)
-@include('service-list',$sl)
-@include('service-cta',$sc)
-@include('service-partners')
-@include('service-footer',['services' => $services])
-@stop
+<?php echo $__env->make('service-header',$sh, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->make('service-list',$sl, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->make('service-cta',$sc, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->make('service-partners', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->make('service-footer',['services' => $services], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\bkupp\lokl\repo\fortune-3\resources\views/service-research-analytics-solutions.blade.php ENDPATH**/ ?>

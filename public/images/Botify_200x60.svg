@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="60" viewBox="0 0 200 60">
+  <defs>
+    <clipPath id="clip-Botify_200x60">
+      <rect width="200" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="Botify_200x60" clip-path="url(#clip-Botify_200x60)">
+    <g id="Layer_2" data-name="Layer 2" transform="translate(11.337 0.03)">
+      <g id="Logo" transform="translate(0 -0.03)">
+        <g id="Botify_small_logo" data-name="Botify small logo">
+          <path id="Path_110" data-name="Path 110" d="M107.465,7.18,94.658,40.2c-3.133,8.137-7.369,12.767-14.58,12.767a12.157,12.157,0,0,1-6.541-1.694l1.714-7.625a9.044,9.044,0,0,0,4.177,1.123c2.66,0,4.61-1.517,6.265-4.926l.414-.926L72,7.18H82.679l7.881,19.9,6.975-19.9Z" transform="translate(69.861 7.026)" fill="#bdbdbd"/>
+          <path id="Path_111" data-name="Path 111" d="M73.768,13.359v.788h6.778v7.526H73.768V46.282H64.547V21.732H59.68V14.147h4.827V13.122C64.507,4.276,70.457,0,78.043,0a20.353,20.353,0,0,1,9.851,2.581L84.86,9.615a13.319,13.319,0,0,0-5.438-1.478c-3.606,0-5.655,1.832-5.655,5.221" transform="translate(57.907 0.059)" fill="#bdbdbd"/>
+          <path id="Path_112" data-name="Path 112" d="M52.51,7.2h9.26V39.3H52.51Z" transform="translate(50.95 7.045)" fill="#bdbdbd"/>
+          <path id="Path_113" data-name="Path 113" d="M63.43,42.436a17.555,17.555,0,0,1-9.359,2.384c-7.566,0-11.566-4.335-11.566-12.945V19.383H37.54V11.857h4.965v-6.9l9.26-2.6v9.5H62.188v7.526H51.765V30.929c0,3.7,1.419,5.458,4.315,5.458a9.063,9.063,0,0,0,4.768-1.241Z" transform="translate(36.425 2.349)" fill="#bdbdbd"/>
+          <path id="Path_114" data-name="Path 114" d="M25.318,29.292A8.078,8.078,0,0,0,17.1,20.9a8.315,8.315,0,1,0,8.216,8.393m9.438,0c0,9.714-6.955,16.866-16.117,16.866a12.255,12.255,0,0,1-9.674-4.394V45.33H0V.92H9.26V16.446a12.492,12.492,0,0,1,9.379-3.941c9.162,0,16.117,7.211,16.117,16.885" transform="translate(0 0.952)" fill="#bdbdbd"/>
+          <path id="Path_115" data-name="Path 115" d="M57.6,10.925a5.359,5.359,0,0,0,5.5-5.438,5.517,5.517,0,0,0-11.034,0A5.359,5.359,0,0,0,57.6,10.925Z" transform="translate(50.513 0.03)" fill="#bdbdbd"/>
+          <path id="Path_116" data-name="Path 116" d="M40.149,31.08a8.157,8.157,0,1,1,4.512-7.27,8.059,8.059,0,0,1-1.143,4.1L49.8,34.193a17.122,17.122,0,1,0-3.389,3.29Z" transform="translate(18.605 6.414)" fill="#bdbdbd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

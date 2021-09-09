@@ -29,9 +29,9 @@
 		<div class="container-fluid mw-xl">
 		<div class="row">
 			<div class="col-12 mb-3 mx-auto text-center">
-									<div class="label">PARTNERS</div>
-													<h2 class="display-2">Trusted  partners.</h2>						
-													<p class="pt-3 text-base">We pair expertise with global power-house partners, like Google and Oracle, to keep your brand ahead of the curve and even further in front of your competition. </p>
+									<div class="label"><?php echo e($subtitle); ?></div>
+													<h2 class="display-2"><?php echo e($title); ?></h2>						
+													<p class="pt-3 text-base"><?php echo e($copy); ?></p>
 							</div>
 		</div>
 			
@@ -40,15 +40,9 @@
 							<div class="row logos-row g-2  nodesc">
 														
 									 <?php
-									 $partners = [
-									 'images/PowerBI_200x60_Black-–-4.svg',
-									 'images/Tableau_200x60_Black-–-5.svg',
-									 'images/GTM_200x60_Black-–-1.svg',
-									 'images/GoogleAnalytics_200x60_Black-–-3.svg',
-									 'images/Optimize_200x60_Black-–-2.svg',
-									 ];
 									 
-			                 foreach($partners as $p)
+									 
+			                 foreach($images as $p)
 				             {
 			                 ?>		
                             <div class="logo-item text-center first-selection my-auto  flexed">									 

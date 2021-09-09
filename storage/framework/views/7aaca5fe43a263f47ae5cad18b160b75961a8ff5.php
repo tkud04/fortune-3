@@ -37,11 +37,24 @@ $sc = [
   'title' => "Premier tracking + testing.",
   'copy' => "<p>More granular than Google or Adobe Analytics, we first conduct tracking audits, understand sales cycles, implement pixels, test models, customize dashboards, and create ongoing reports — then we test. We offer complete quality assurance to ensure pixel firing, determine data accuracy, implement additional A/B testing, and update based on continual findings.</p>"
 ];
+
+$sp = [
+  'title' => "Trusted partners.",
+  'subtitle' => "PARTNERS",
+  'copy' => "We pair expertise with global power-house partners, like Google and Oracle, to keep your brand ahead of the curve and even further in front of your competition.",
+  'images' => [
+									 'images/PowerBI_200x60_Black-–-4.svg',
+									 'images/Tableau_200x60_Black-–-5.svg',
+									 'images/GTM_200x60_Black-–-1.svg',
+									 'images/GoogleAnalytics_200x60_Black-–-3.svg',
+									 'images/Optimize_200x60_Black-–-2.svg',
+									 ]
+];
 ?>
 <?php echo $__env->make('service-header',$sh, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <?php echo $__env->make('service-list',$sl, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <?php echo $__env->make('service-cta',$sc, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<?php echo $__env->make('service-partners', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->make('service-partners',$sp, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <?php echo $__env->make('service-footer',['services' => $services], \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 <?php $__env->stopSection(); ?>
 

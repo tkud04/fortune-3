@@ -36,13 +36,14 @@ class MainController extends Controller {
 		}
 		
 		$req = $request->all();
+                $services = $this->helpers->services;
 
 		$signals = $this->helpers->signals;
 		$pe = $this->helpers->getPhoneAndEmail();
 		$plugins = $this->helpers->getPlugins();
 		$banners = $this->helpers->getBanners();
 		
-    	return view("index",compact(['user','banners','pe','signals','plugins']));
+    	return view("index",compact(['user','services','banners','pe','signals','plugins']));
     }
 
 /**

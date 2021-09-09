@@ -8,9 +8,11 @@ $pcClass = "";
 
 
 
-@section('bodyClass',"page-paid-media noawesome hashero-color hashero")
+@section('bodyClass',"page-about noawesome hashero-image hashero")
 
 @section('content')
+<div class="container-fluid mw-xl">
+			<div class="main-content home-page">
 <style>	
 		#block_60416820fd9c5 .image-background {
 			background-position: center center;

@@ -1,5 +1,6 @@
 <?php
 $pcClass = "";
+$banner = "images/service-footer.jpg";
 ?>
 @extends('layout')
 
@@ -21,15 +22,15 @@ $pcClass = "";
 </div></div><section id="block_60416820fd9c5" class="content-block d-flex  alignfull wp-block-acf-adtheme-hero alignfull adtheme-hero align-items-end mob-stack color-as-herotype height-def has-background background-000000 has-background image-as-background has-overlay has-font-color text-default">			
 			<div class="image-background  hero-overlay background-000000 d-none d-sm-block">
 				<picture class="skip-lazy object-cover object-center w-100 h-100" aria-hidden="true" loading="eager">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526.jpg.webp 1900w, https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526-1057x400.jpg.webp 1057w, https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526-1718x650.jpg.webp 1718w, https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526-529x200.jpg.webp 529w, https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526-768x291.jpg.webp 768w, https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526-1536x581.jpg.webp 1536w" sizes="(max-width: 1900px) 100vw, 1900px"/>
-<img width="1900" height="719" src="https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526.jpg" alt="1900x719-_0002_GettyImages-1159576526" aria-hidden="true" loading="eager" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526.jpg 1900w, https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526-1057x400.jpg 1057w, https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526-1718x650.jpg 1718w, https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526-529x200.jpg 529w, https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526-768x291.jpg 768w, https://www.amsivedigital.com/wp-content/uploads/2021/05/1900x719-_0002_GettyImages-1159576526-1536x581.jpg 1536w" sizes="(max-width: 1900px) 100vw, 1900px"/>
+<source type="image/webp" srcset="{{$banner}} 1900w, {{$banner}} 1057w, {{$banner}} 1718w, {{$banner}} 529w, {{$banner}} 768w, {{$banner}} 1536w" sizes="(max-width: 1900px) 100vw, 1900px"/>
+<img width="1900" height="719" src="{{$banner}}" alt="About Us" aria-hidden="true" loading="eager" srcset="{{$banner}} 1900w, {{$banner}} 1057w, {{$banner}} 1718w, {{$banner}} 529w, {{$banner}} 768w, {{$banner}} 1536w" sizes="(max-width: 1900px) 100vw, 1900px"/>
 </picture>
 			</div>
 			
 						<div class="image-background skip-lazy  hero-overlay background-000000 d-block d-sm-none">
 				<picture class="skip-lazy object-cover object-center w-100 h-100" aria-hidden="true" loading="eager">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/700x600-_0026_GettyImages-1159576526.jpg.webp 700w, https://www.amsivedigital.com/wp-content/uploads/2021/05/700x600-_0026_GettyImages-1159576526-467x400.jpg.webp 467w, https://www.amsivedigital.com/wp-content/uploads/2021/05/700x600-_0026_GettyImages-1159576526-233x200.jpg.webp 233w" sizes="(max-width: 700px) 100vw, 700px"/>
-<img width="700" height="600" src="https://www.amsivedigital.com/wp-content/uploads/2021/05/700x600-_0026_GettyImages-1159576526.jpg" alt="700x600-_0026_GettyImages-1159576526" aria-hidden="true" loading="eager" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/05/700x600-_0026_GettyImages-1159576526.jpg 700w, https://www.amsivedigital.com/wp-content/uploads/2021/05/700x600-_0026_GettyImages-1159576526-467x400.jpg 467w, https://www.amsivedigital.com/wp-content/uploads/2021/05/700x600-_0026_GettyImages-1159576526-233x200.jpg 233w" sizes="(max-width: 700px) 100vw, 700px"/>
+<source type="image/webp" srcset="{{$banner}} 700w, {{$banner}} 467w, {{$banner}} 233w" sizes="(max-width: 700px) 100vw, 700px"/>
+<img width="700" height="600" src="{{$banner}}" alt="About Us" aria-hidden="true" loading="eager" srcset="{{$banner}} 700w, {{$banner}} 467w, {{$banner}} 233w" sizes="(max-width: 700px) 100vw, 700px"/>
 </picture>
 			</div>
 						

@@ -310,24 +310,28 @@ public $information_types = [
 public $services = [
            [
            'title' => "SEO",
+           'subtitle' => "Optimize and advance a modern search strategy.",
            'href' => "service-seo",
            'copy' => "Control your message on the search results page to find new consumers and re-engage loyal ones. ",
            'list' => ['Technical','Content','Ecommerce','Local','Algorithm Recovery',]
            ],
            [
            'title' => "Paid Media",
+		   'subtitle' => "Develop the best full-funnel media mix.",
            'href' => "service-paid-media",
            'copy' => "We dive deep into your business to craft campaigns with real and quantifiable ROI. ",
            'list' => ['Paid Search','Programmatic + Display','Paid Social','Shopping','Amazon','Video + OTT']
            ],
            [
            'title' => "Social",
+		   'subtitle' => "Build an authentic, action-oriented community.",
            'href' => "service-social",
            'copy' => "Scalable paid, organic, and influencer strategies to drive discovery, engage your audiences, and increase ROAS. ",
            'list' => ['Paid Social','Earned + Owned Social','Website + Experience Design',]
            ],
            [
            'title' => "Performance Creative",
+		   'subtitle' => "Power brand creative with valuable data and insights.",
            'href' => "service-performance-creative",
            'copy' => "Blend art and science to build high-impact creative campaigns tailor-made for your targets and achieve the most return on your ad spend. ",
            'list' => ['Content','Display','Social','Video','Algorithm Recovery',]
@@ -335,12 +339,14 @@ public $services = [
            
             [
            'title' => "Research + Analytics Solutions",
+		   'subtitle' => "Grow with market research and analytics.",
            'href' => "service-research-analytics-solutions",
            'copy' => "Leverage the power of leading consumer data providers and analytics technologies to make confident marketing decisions. ",
            'list' => ['Analytics + Attribution','Conversion Rate Optimization (CRO)','Feed Management','Customer Modeling',]
            ],
            [
            'title' => "Strategy",
+		   'subtitle' => "Amplify business outcomes with top-tier thinking.",
            'href' => "service-strategy",
            'copy' => "Build go-to-market strategies and tools for performance brands with clear-sighted digital KPIs. ",
            'list' => ['Media Planning','Audience Development','Go-to-Market Strategy','Consulting','Training']

@@ -33,9 +33,9 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 		
 		@yield('includes')
 		
-<title>@yield('title') | Digital Performance Marketing Agency</title>
+<title>@yield('title') | Gorals - Digital Performance Marketing Agency</title>
 	<meta name="description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
-	<link rel="canonical" href="https://www.amsivedigital.com/" />
+	<link rel="canonical" href="{{url('/')}}" />
 	<!--
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
@@ -58,7 +58,6 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 
 <link rel='stylesheet' id='bootstrap-css'  href='css/bootstrap-cust.min.css?ver=1624397687' type='text/css' media='all' />
 <link data-minify="1" rel='stylesheet' id='styles-css'  href='css/styles.min.css?ver=1628889607' type='text/css' media='all' />
-<link rel="https://api.w.org/" href="https://www.amsivedigital.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.amsivedigital.com/wp-json/wp/v2/pages/2" />
 <link rel='shortlink' href="{{url('/')}}" />
 <script type="rocketlazyloadscript">var WarningBrowserPath = {"pathwarning_title":"Your browser is no longer supported.","pathwarning_sub":"A modern browser is required for security, performance, and reliability.","pathwarning_logo":"https://www.amsivedigital.com/wp-content/uploads/2021/03/Amsive-Digital-Logo-White.svg"};</script>
 <style>#ie_over {background-color: rgba(124, 15, 129, 1);} .ieisold #ie_over .container-fluid h1 {color:#ffffff !important; } .ieisold #ie_over .container-fluid h2 {color:#ffffff !important; } .ieisold #ie_over .content-table a ins {color:#ffffff !important; } .ieisold #ie_over svg path {fill:#ffffff !important;} </style><script type="rocketlazyloadscript" data-minify='0' >
@@ -144,12 +143,16 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 				<li class=" menu-item nav-item firstline" ><a href="{{url('about')}}" class="nav-link "><span>About</span></a></li>
 <li class=" menu-item nav-item has-sub-menu dropdown firstline" data-toggle-dropdown="closed"><a title="See All Services" href="{{url('services')}}" class="nav-link  gotosub"><span>Services</span><svg height="16" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="angle-down" class="svg-inline--fa fa-angle-down fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="currentColor" d="M119.5 326.9L3.5 209.1c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0L128 287.3l100.4-102.2c4.7-4.7 12.3-4.7 17 0l7.1 7.1c4.7 4.7 4.7 12.3 0 17L136.5 327c-4.7 4.6-12.3 4.6-17-.1z"></path></svg></a><div class="sub-menu-wrap three-col"><div class="container-fluid mw-xl"><div class="row text-start py-4"><div class="promo text-start col-lg-4 offset-xl-1"><div class="p-3 text-start"><h3 class="mb-lg-4 d-inline-block d-lg-block"> We help brands grow.</h3><a class="text-primary small-font font-weight-600 titillium-web second-link px-0 pb-2 ms-3 ms-lg-0" href="{{url('services')}}" target="_self">See All Services</a></div></div><div class="py-3 px-4 col-xl-7 col-lg-8">
 <ul class="sub-menu list-unstyled row"  role="menu">
-	<li class=" menu-item nav-item col-lg-6 col-4 text-start mb-3" ><a href="javascript:void(0)" class="nav-link h6 text-primary px-0 pt-0 pb-2 mb-0 d-inline-block"><span>Paid Media</span></a><div class="sub-desc small-font titillium-web">Develop the best full-funnel media mix.</div></li>
-	<li class=" menu-item nav-item col-lg-6 col-4 text-start mb-3" ><a href="javascript:void(0)" class="nav-link h6 text-primary px-0 pt-0 pb-2 mb-0 d-inline-block"><span>Social</span></a><div class="sub-desc small-font titillium-web">Build an authentic, action-oriented community.</div></li>
-	<li class=" menu-item nav-item col-lg-6 col-4 text-start mb-3" ><a href="javascript:void(0)" class="nav-link h6 text-primary px-0 pt-0 pb-2 mb-0 d-inline-block"><span>Data + Analytics Solutions</span></a><div class="sub-desc small-font titillium-web">Grow with actionable data and analytics.</div></li>
-	<li class=" menu-item nav-item col-lg-6 col-4 text-start mb-3" ><a href="javascript:void(0)" class="nav-link h6 text-primary px-0 pt-0 pb-2 mb-0 d-inline-block"><span>SEO</span></a><div class="sub-desc small-font titillium-web">Optimize and advance a modern search strategy.</div></li>
-	<li class=" menu-item nav-item col-lg-6 col-4 text-start mb-3" ><a href="javascript:void(0)" class="nav-link h6 text-primary px-0 pt-0 pb-2 mb-0 d-inline-block"><span>Performance Creative</span></a><div class="sub-desc small-font titillium-web">Power brand creative with valuable data and insights.</div></li>
-	<li class=" menu-item nav-item col-lg-6 col-4 text-start mb-3" ><a href="javascript:void(0)" class="nav-link h6 text-primary px-0 pt-0 pb-2 mb-0 d-inline-block"><span>Strategy</span></a><div class="sub-desc small-font titillium-web">Amplify business outcomes with top-tier thinking.</div></li>
+    <?php
+   $i = 16098;
+	foreach($services as $s)
+	 {
+	?>
+	<li class=" menu-item nav-item col-lg-6 col-4 text-start mb-3" ><a href="{{$s['href']}}" class="nav-link h6 text-primary px-0 pt-0 pb-2 mb-0 d-inline-block"><span>{{$s['title']}}</span></a><div class="sub-desc small-font titillium-web">{{$s['subtitle']}}</div></li>
+	<?php
+	 $i += 2;
+	 }
+	?>
 </ul>
 </li>
 <li class=" menu-item nav-item firstline" ><a href="javascript:void(0)" class="nav-link "><span>Results</span></a></li>
@@ -162,13 +165,19 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-13916" class="menu-item nav-item"><a title="About" href="{{url('about')}}" class="nav-link">About</a></li>
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-14023" class="menu-item dropdown nav-item"><a title="See All Services" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="menu-item-dropdown-14023">Services</a>
 <ul class="dropdown-menu" aria-labelledby="menu-item-dropdown-14023" role="menu">
-<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item nav-item duplicated"><a title="Services" href="javascript:void(0)" class="dropdown-item">Services</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16100" class="menu-item nav-item"><a title="Paid Media" href="javascript:void(0)" class="dropdown-item">Paid Media</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16098" class="menu-item nav-item"><a title="Social" href="javascript:void(0)" class="dropdown-item">Social</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16096" class="menu-item nav-item"><a title="Data + Analytics Solutions" href="javascript:void(0)" class="dropdown-item">Data + Analytics Solutions</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16099" class="menu-item nav-item"><a title="SEO" href="javascript:void(0)" class="dropdown-item">SEO</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16097" class="menu-item nav-item"><a title="Performance Creative" href="javascript:void(0)" class="dropdown-item">Performance Creative</a></li>
-	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16095" class="menu-item nav-item"><a title="Strategy" href="javascript:void(0)" class="dropdown-item">Strategy</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" class="menu-item nav-item duplicated"><a title="Services" href="{{url('services')}}" class="dropdown-item">Services</a></li>
+   <?php
+   $i = 16098;
+	foreach($services as $s)
+	 {
+	?>
+	<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-{{$i}}" class="menu-item nav-item">
+	  <a title="{{$s['title']}}" href="{{$s['href']}}" class="dropdown-item">{{$s['title']}}</a>
+	</li>
+	<?php
+	 $i += 2;
+	 }
+	?>
 </ul>
 </li>
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16105" class="menu-item nav-item"><a title="Results" href="javascript:void(0)" class="nav-link">Results</a></li>

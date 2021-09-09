@@ -28,7 +28,7 @@
 											<div class="col-xl-5 col-md-6 py-md-4">
 																				<h2 class="cta-title display-2 w-xl-75 me-5 me-md-0">Work with us.</h2>
 																			<p class="cta-text mb-0 mt-4 px-md-2">We love to be challenged. Bring us your problems — and we’ll create tangible, data-driven solutions.</p>
-																														<a href="https://www.amsivedigital.com/contact/" target="_self" class="btn btn-primary mt-4" target="_self" >
+																														<a href="{{url('contact')}}" target="_self" class="btn btn-primary mt-4" target="_self" >
 								LET&#039;S TALK							</a>
 																					</div>				
 					</div>		

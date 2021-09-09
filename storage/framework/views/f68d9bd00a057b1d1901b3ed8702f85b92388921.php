@@ -37,11 +37,11 @@ $sc = [
 ];
 
 $scl = [
-  'img' => "images/whippy.jpg",
-  'title' => "Whippy Mayo'",
-  'num' => "+200%",
-  'subtitle' => "Brand Awareness ",
-  'copy' => "Driven by both established and new customers, we created social marketing campaigns that supported moving unsold Whippy Mayo' to new markets across Nigeria. Strategy was to create an entirely new level of brand demand. "
+  'img' => "images/activa.jpg",
+  'title' => "Activa Oil",
+  'num' => "+75%",
+  'subtitle' => "Lead Volume ",
+  'copy' => "Our team developed marketing effort to drive market quality leads to Activa Oil's sales teams. Using persuasive messaging and CTAs, customers were converted to make retail purchases at their local retail stores during weekends. "
 ];
 
 $sp = [
@@ -115,33 +115,7 @@ $sp = [
 <?php echo $__env->make('service-cta',$sc, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
 <?php echo $__env->make('service-partners',$sp, \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-<div><div class="container-fluid mw-xl">
 
-	
-
-	<style>
-					#block_60b015a84c3cf {			
-				background: #f9f9f9;					
-			}	
-			
-					#block_60b015a84c3cf * {
-				color: #000000;
-			}
-				</style>
-
-</div></div><section id="block_60b015a84c3cf" class="content-block  alignfull info-block py-md-5 py-4 background-f9f9f9 has-font-color text-default">	<div class="container-fluid mw-xl">
-		<div class="row py-md-2 ">
-			<div class="col-md-6 py-md-4">
-				<div class="me-md-5 pe-md-5">
-				  <h2 class="cta-title h2 mb-0">Predictive modelling + audience targeting. </h2>													
-				</div>
-			</div>
-			<div class="col-md-6 py-md-4">
-			 <div class="mb-0 px-md-2 py-md-0 py-4 text-base"><p>We target down to a single household. Leverage our in-house database of 10M+ customer profiles and 2,000+ customer variables to identify your exact customers at every stage of their consumer journey.</p></div>
-			</div>
-		</div>		
-	</div>
-</section>
 <div><div class="container-fluid mw-xl">
 
 
@@ -167,9 +141,9 @@ $sp = [
 			<div class="col-lg-5 text-box  py-md-5 py-4">
 				<div class="py-4 px-md-4 mx-1 d-flex h-100 align-items-center">
 					<div>
-											<div class="label">AWARENESS</div>
-																							<h2 class="display-2 mb-4">Build brand awareness for products and services.</h2>
-																											<div class="mb-4"><p>Introduce your brand with social, native, video, and display advertising. From TikTok to YouTube and LinkedIn to Google’s display network, meet your ideal consumer from every digital angle.</p>
+											<div class="label">PERFORMANCE CREATIVE</div>
+																							<h2 class="display-2 mb-4">Scroll-stopping, shareworthy content.</h2>
+																											<div class="mb-4"><p>Put your brand’s heart on its sleeve. Share your brand’s passion and life with personalized creative concepts — and use data to do it right. We identify and amplify your brand’s unique point of view and tailor contextual content for all top platforms.</p>
 </div>
 															</div>
 				</div>
@@ -190,7 +164,7 @@ $sp = [
 </div></div><section id="block_60b01ac04c3d1" class="content-block  alignfull image-desc my-0 has-font-color text-default">	<div class="container-fluid mw-xl">
 		<div class="row flex-row-reverse align-items-stretch h-100">
 			<div class="col-lg-7 color-box align-self-stretch px-0">
-									<div data-bg="images/spm-2.jpg" class="image-background h-100 rocket-lazyload" 
+									<div data-bg="images/ss-2.jpg" class="image-background h-100 rocket-lazyload" 
 						aria-hidden="true" 
 						style="">
 					</div>
@@ -198,83 +172,9 @@ $sp = [
 			<div class="col-lg-5 text-box  py-md-5 py-4">
 				<div class="py-4 px-md-4 mx-1 d-flex h-100 align-items-center">
 					<div>
-											<div class="label">CONSIDERATION</div>
-																							<h2 class="display-2 mb-4">Reach hand-raisers and in-market consumers.</h2>
-																											<div class="mb-4"><p>Nurture interest and engagement with strategic retargeting through consumers’ favorite platforms, whether it’s a podcast or OOT advertising on their favorite viewing platform. Create a holistic search user experience. When your target audience is ready to learn more — your brand has all the answers.</p>
-</div>
-															</div>
-				</div>
-			</div>		
-		</div>		
-	</div>
-</section>
-<div><div class="container-fluid mw-xl">
-
-									<style>		
-																#block_60b01afc4c3d3 .text-box * {
-							color: #000000 !important;
-						}
-							
-				</style>
-						
-	
-</div></div><section id="block_60b01afc4c3d3" class="content-block  alignfull image-desc my-0 has-font-color text-default">	<div class="container-fluid mw-xl">
-		<div class="row  align-items-stretch h-100">
-			<div class="col-lg-7 color-box align-self-stretch px-0">
-									<div data-bg="images/spm-4.jpg" class="image-background h-100 rocket-lazyload" 
-						aria-hidden="true" 
-						style="">
-					</div>
-							</div>
-			<div class="col-lg-5 text-box  py-md-5 py-4">
-				<div class="py-4 px-md-4 mx-1 d-flex h-100 align-items-center">
-					<div>
-											<div class="label">CONVERSION</div>
-																							<h2 class="display-2 mb-4">Encourage action from your most valuable prospects.</h2>
-																											<div class="mb-4"><p>We achieve optimal conversions through strategic retargeting through all capable channels. From shopping to search to social, we create a clear moment of action for your customer.</p>
-</div>
-															</div>
-				</div>
-			</div>		
-		</div>		
-	</div>
-</section>
-<div><div class="container-fluid mw-xl">
-
-									<style>		
-											#block_60b01ae84c3d2 {
-							background: #7c0f81;
-						}
-																#block_60b01ae84c3d2 .text-box * {
-							color: #ffffff !important;
-						}
-							
-				</style>
-						
-	
-</div></div><section id="block_60b01ae84c3d2" class="content-block  alignfull image-desc my-0 has-font-color text-default">	<div class="container-fluid mw-xl">
-		<div class="row flex-row-reverse align-items-stretch h-100">
-			<div class="col-lg-7 color-box align-self-stretch px-0">
-									<div data-bg="images/spm-3.jpg" class="image-background h-100 rocket-lazyload" 
-						aria-hidden="true" 
-						style="">
-					</div>
-							</div>
-			<div class="col-lg-5 text-box  py-md-5 py-4">
-				<div class="py-4 px-md-4 mx-1 d-flex h-100 align-items-center">
-					<div>
-											<div class="label">TESTING + OPTIMIZATION</div>
-																							<h2 class="display-2 mb-4">We don’t do guesswork.</h2>
-																											<div class="mb-4"><p>Experimentation is necessary — but we’ve got it down to a science. Using the latest analytics tools, we test and iterate to pinpoint insights, optimize best-performing content, and maximize your ROI.</p>
-<ul>
-<li>Defining Outcomes</li>
-<li>Auditing Existing Content</li>
-<li>Identifying Opportunities</li>
-<li>Concepting Creative</li>
-<li>Mapping + Production</li>
-<li>Analyzing Performance</li>
-<li>Optimizing Amplification</li>
-</ul>
+											<div class="label">PAID SOCIAL</div>
+																							<h2 class="display-2 mb-4">The social media space is crowded.</h2>
+																											<div class="mb-4"><p>Our dynamic ads, advanced bidding strategies, constant optimization, and targeted remarketing ensure your best audience is informed, interested, and eventually action-oriented. And we ensure optimal results with integrated performance tracking, custom dashboards, and near real-time reporting.</p>
 </div>
 															</div>
 				</div>

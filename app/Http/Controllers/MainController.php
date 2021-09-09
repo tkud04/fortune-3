@@ -96,6 +96,7 @@ class MainController extends Controller {
 		$banners = $this->helpers->getBanners();
 		
                 $v = "service-".{$n};
+                }
                 
     	        return view($v,compact(['user','banners','pe','signals','plugins']));
     }

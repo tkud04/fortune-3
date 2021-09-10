@@ -106,7 +106,8 @@ $banner = "images/service-footer.jpg";
 			<div class="col-md-6 py-md-4">
 									<div class="row">					
 												<div class="col-6 mb-5 text-md-start text-sm-center text-start">
-															<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="office-ico mb-3" alt="Icon - Lagos Office" data-lazy-src="lagos.svg" /><noscript><img src="lagos.svg" class="office-ico mb-3" alt="Lagos Office" /></noscript>																						<div class="h4 mb-2 titillium-web">New York, NY</div>
+															<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="office-ico mb-3" alt="Icon - Lagos Office" data-lazy-src="images/lagos-offce.svg" /><noscript><img src="images/lagos-office.svg" class="office-ico mb-3" alt="Lagos Office" /></noscript>															
+  							<div class="h4 mb-2 titillium-web">Ikeja, LG</div>
 																						<div class="text-base">Gorals Africa<br />
 16B Mobolaji Bank Anthony Way,<br />
 Maryland 101233, <br />
@@ -114,29 +115,15 @@ Lagos State <br>
 <a href="tel:2348105600803">(234) 810-5600-803</a></div>
 													</div>
 												<div class="col-6 mb-5 text-md-start text-sm-center text-start">
-															<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="office-ico mb-3" alt="Icon - Port Harcourt Office" data-lazy-src="ph.svg" /><noscript><img src="ph.svg" class="office-ico mb-3" alt="Icon - Port Harcourt Office" /></noscript>																						<div class="h4 mb-2 titillium-web">Nashville, TN</div>
+															<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="office-ico mb-3" alt="Icon - Port Harcourt Office" data-lazy-src="images/ph-office.svg" /><noscript><img src="images/ph-office.svg" class="office-ico mb-3" alt="Icon - Port Harcourt Office" /></noscript>																					
+   	<div class="h4 mb-2 titillium-web">Port Harcourt, RI</div>
 																						<div class="text-base">Gorals Africa<br />
 4B Manuchim Close,<br />
 Woji, Port Harcourt,<br>
 Rivers State
 </div>
 													</div>
-												<div class="col-6 mb-5 text-md-start text-sm-center text-start">
-																						<div class="h4 mb-2 titillium-web">Miami, FL</div>
-																						<div class="text-base">Amsive Digital</div>
-													</div>
-												<div class="col-6 mb-5 text-md-start text-sm-center text-start">
-																						<div class="h4 mb-2 titillium-web">Atlanta, GA</div>
-																						<div class="text-base">Amsive Digital</div>
-													</div>
-												<div class="col-6 mb-5 text-md-start text-sm-center text-start">
-																						<div class="h4 mb-2 titillium-web">Bolingbrook, IL</div>
-																						<div class="text-base">Amsive Headquarters</div>
-													</div>
-												<div class="col-6 mb-5 text-md-start text-sm-center text-start">
-																						<div class="h4 mb-2 titillium-web">Greenville, SC</div>
-																						<div class="text-base">Amsive</div>
-													</div>
+												
 											</div>
 								
 			</div>

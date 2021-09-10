@@ -83,7 +83,20 @@ $r2 = "images/r2.webp";
 <div><div class="container-fluid mw-xl">
 <section id="block_607cee9074790" class="content-block  alignwide content-grid py-md-5 py-4 has-font-color text-default">
 <?php
-$pairs = [];
+$pairs = [
+  [
+   ['href' => "javascript:void(0)",'img' => "images/phamatex.jpg",'name' => "Phamatex Industries",'num' => "5x Brand Awareness + Sales Leads",'services' => "Paid Search, Paid Social, SEO"],
+   ['href' => "javascript:void(0)",'img' => "images/ups.jpg",'name' => "UPS",'num' => "+15% Click-through via WhatsApp targeting",'services' => "Creative, Digital Media, Performance Content"],
+ ],
+ [
+   ['href' => "javascript:void(0)",'img' => "images/dangote.jpg",'name' => "Dangote Sugar Refinery Limited",'num' => "+6.7 Website traffic",'services' => "Website Development, SEO, Performance Creative"],
+   ['href' => "javascript:void(0)",'img' => "images/activa.jpg",'name' => "Activa Oil",'num' => "+75% Lead Volume",'services' => "Paid Social, Organic Social, Digital Media, Performance Creative"],
+ ],
+ [
+   ['href' => "javascript:void(0)",'img' => "images/boneflex.jpg",'name' => "Boneflex by Geneith Pharma",'num' => "+87% Brand Awareness",'services' => "Paid Social, Organic Social, Digital Media, Performance Creative"],
+   ['href' => "javascript:void(0)",'img' => "images/ra-thermoseal.jpg",'name' => "RA Thermoseal by Healthline Limited",'num' => "+40% Brand Awareness",'services' => "Performance Creative, Digital Media, Traditional Media, Paid Social"],
+ ],
+];
 foreach($pairs as $pair)
 {
 ?>
@@ -123,6 +136,7 @@ foreach($pairs as $pair)
 }
 ?>
 </section>
+
 	<style>		
 					#block_607cee9b74791 {
 				background: #1a7175;
@@ -133,4 +147,37 @@ foreach($pairs as $pair)
 				
 </style>
 </div></div>
+<section id="block_607cee9b74791" class="content-block  alignfull testimonial-block testim_type-text my-4 py-5 background-1a7175 has-font-color text-default">
+	<div class="container-fluid mw-xl">
+		<div class="row  align-items-stretch testim-row">
+			 
+			<div class="col-md-10 offset-md-1 text-box py-md-5 py-4 my-auto">
+				<div class="row add-bord">
+					<div class="col-md-2 text-md-end text-start">
+						<svg version="1.1" class="mt-2 mb-3"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+							 y="0px" width="68.22px" height="55px" viewBox="0 0 108 86" enable-background="new 0 0 108 86" xml:space="preserve">
+						<g>
+							<g>
+								<path fill="#FFFFFF" d="M0,86c15.665,0,31.335,0,47,0c0-10.666,0-21.334,0-32c-8.333,0-16.667,0-25,0
+								c3.475-12.479,12.054-23.731,17-35c2.726-6.211,3.802-12.401,8-17c0-0.667,0-1.333,0-2C31.335,0,15.665,0,0,0
+								C0,28.664,0,57.336,0,86z M108,2c0-0.667,0-1.333,0-2C92.335,0,76.665,0,61,0c0,28.664,0,57.336,0,86c15.665,0,31.335,0,47,0
+								c0-10.666,0-21.334,0-32c-8.333,0-16.667,0-25,0c3.475-12.479,12.054-23.731,17-35C102.726,12.789,103.802,6.599,108,2z"/>
+							</g>
+						</g>
+						</svg>
+					</div>
+					<div class="col-md-10">
+						<div class="h3">It is clear that Gorals understands our needs and industry the best. Their transparency and willingness to educate clients on what/why/how they’re handling your marketing efforts is refreshing.</div>
+													<div class="pt-4">
+								<div class="pb-2"><b>Priya Hariharan</b></div>
+								<div class="">Product Manager, Healthline Limited</div>
+							</div>
+							
+					</div>
+				</div>
+			</div>
+			 
+		</div>		
+	</div>
+</section>
 @stop

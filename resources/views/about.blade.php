@@ -106,7 +106,7 @@ $banner = "images/service-footer.jpg";
 			<div class="col-md-6 py-md-4">
 									<div class="row">					
 												<div class="col-6 mb-5 text-md-start text-sm-center text-start">
-															<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="office-ico mb-3" alt="Icon - Lagos Office" data-lazy-src="images/lagos-offce.svg" /><noscript><img src="images/lagos-office.svg" class="office-ico mb-3" alt="Lagos Office" /></noscript>															
+															<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="office-ico mb-3" alt="Icon - Lagos Office" data-lazy-src="images/lagos-office.svg" /><noscript><img src="images/lagos-office.svg" class="office-ico mb-3" alt="Lagos Office" /></noscript>															
   							<div class="h4 mb-2 titillium-web">Ikeja, LG</div>
 																						<div class="text-base">Gorals Africa<br />
 16B Mobolaji Bank Anthony Way,<br />
@@ -131,191 +131,6 @@ Rivers State
 	</div>
 </section>
 
-<div><div class="container-fluid mw-xl">
-
-<section id="block_605cdce52280f" class="content-block  alignwide wp-block-acf-logo-block alignwide logo-block py-3 has-font-color text-default">	<style>
-		#block_605cdce52280f .logos-row .logo-item {			
-						flex: 1 0 25%;
-			max-width:25%;
-						
-		}
-	</style>	
-
-			<script type="rocketlazyloadscript">
-			function block_605cdce52280f_logoToggle() {
-				var parent_b = document.getElementById("block_605cdce52280f"); 
-				var logos = parent_b.getElementsByClassName("rest-select");
-				var btn = document.getElementById("block_605cdce52280f-logo-toggle"); 
-				
-					for (var i = 0; i < logos.length; i++) {
-						logos.item(i).classList.toggle("active");
-					}
-					if(btn.innerHTML == 'View More +'){
-						btn.innerHTML = 'View Less -';
-					} else {
-						btn.innerHTML = 'View More +';
-					}
-			}
-		</script>
-		<div class="container-fluid mw-xl">
-		<div class="row">
-			<div class="col-12 mb-3 mx-auto text-center">
-									<div class="label">AWARDS</div>
-													<h2 class="display-2">We love being good at what we do.</h2>						
-											</div>
-		</div>
-			
-				<div class="row  pt-5">
-			<div class="col mb-md-3">
-							<div class="row logos-row g-2  hasdesc">
-										<div class="logo-item text-center first-selection align-self-top  flexed">						
-													
-							<div class="mx-auto logo-holder" >
-								<picture class="d-inline-block mb-3">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-150x69.jpg.webp 150w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" alt="The Communicator Awards | Amsive Digital" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-150x69.jpg 150w" data-lazy-sizes="(max-width: 546px) 100vw, 546px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator.jpg"/>
-</picture>
-<noscript><picture class="d-inline-block mb-3">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-150x69.jpg.webp 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator.jpg" alt="The Communicator Awards | Amsive Digital" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/communicator-150x69.jpg 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-</picture>
-</noscript>							</div>
-																			<div class="desc-holder mb-5 px-md-3">
-								<p><strong>Communicator Awards</strong></p>
-<p>Award of Excellent &amp; of Distinction</p>
-							</div>
-											</div>
-										<div class="logo-item text-center first-selection align-self-top  flexed">						
-													
-							<div class="mx-auto logo-holder" >
-								<picture class="d-inline-block mb-3">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/bing.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-150x69.jpg.webp 150w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" alt="Bing Partner | Amsive Digital" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/bing.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-150x69.jpg 150w" data-lazy-sizes="(max-width: 546px) 100vw, 546px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/bing.jpg"/>
-</picture>
-<noscript><picture class="d-inline-block mb-3">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/bing.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-150x69.jpg.webp 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="https://www.amsivedigital.com/wp-content/uploads/2021/03/bing.jpg" alt="Bing Partner | Amsive Digital" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/bing.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/bing-150x69.jpg 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-</picture>
-</noscript>							</div>
-																			<div class="desc-holder mb-5 px-md-3">
-								<p><strong>Bing Agency Awards</strong></p>
-<p>Independent Agency of the Year</p>
-							</div>
-											</div>
-										<div class="logo-item text-center first-selection align-self-top  flexed">						
-													
-							<div class="mx-auto logo-holder" >
-								<picture class="d-inline-block mb-3">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/landy.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-150x69.jpg.webp 150w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" alt="The Landy Awards | Amsive Digital" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/landy.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-150x69.jpg 150w" data-lazy-sizes="(max-width: 546px) 100vw, 546px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/landy.jpg"/>
-</picture>
-<noscript><picture class="d-inline-block mb-3">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/landy.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-150x69.jpg.webp 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="https://www.amsivedigital.com/wp-content/uploads/2021/03/landy.jpg" alt="The Landy Awards | Amsive Digital" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/landy.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/landy-150x69.jpg 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-</picture>
-</noscript>							</div>
-																			<div class="desc-holder mb-5 px-md-3">
-								<p><strong>Search Engine Land Awards</strong></p>
-<p>Best Enterprise SEO campaign</p>
-							</div>
-											</div>
-										<div class="logo-item text-center first-selection align-self-top  flexed">						
-													
-							<div class="mx-auto logo-holder" >
-								<picture class="d-inline-block mb-3">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/davey.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-150x69.jpg.webp 150w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" alt="Davey Awards | Amsive Digital" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/davey.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-150x69.jpg 150w" data-lazy-sizes="(max-width: 546px) 100vw, 546px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/davey.jpg"/>
-</picture>
-<noscript><picture class="d-inline-block mb-3">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/davey.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-150x69.jpg.webp 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="https://www.amsivedigital.com/wp-content/uploads/2021/03/davey.jpg" alt="Davey Awards | Amsive Digital" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/davey.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/davey-150x69.jpg 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-</picture>
-</noscript>							</div>
-																			<div class="desc-holder mb-5 px-md-3">
-								<p><strong>Davey Awards</strong></p>
-<p>Gold and Silver Winners, Social Media</p>
-							</div>
-											</div>
-										<div class="logo-item text-center rest-select align-self-top  flexed">						
-													
-							<div class="mx-auto logo-holder" >
-								<picture class="d-inline-block mb-3">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/c3.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-150x69.jpg.webp 150w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" alt="C3 Award | Amsive Digital" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/c3.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-150x69.jpg 150w" data-lazy-sizes="(max-width: 546px) 100vw, 546px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/c3.jpg"/>
-</picture>
-<noscript><picture class="d-inline-block mb-3">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/c3.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-150x69.jpg.webp 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="https://www.amsivedigital.com/wp-content/uploads/2021/03/c3.jpg" alt="C3 Award | Amsive Digital" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/c3.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/c3-150x69.jpg 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-</picture>
-</noscript>							</div>
-																			<div class="desc-holder mb-5 px-md-3">
-								<p><strong>Conductor</strong></p>
-<p>Best in Class Agency</p>
-							</div>
-											</div>
-										<div class="logo-item text-center rest-select align-self-top  flexed">						
-													
-							<div class="mx-auto logo-holder" >
-								<picture class="d-inline-block mb-3">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/google.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-150x69.jpg.webp 150w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" alt="Premier Google Partner | Amsive Digital" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/google.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-150x69.jpg 150w" data-lazy-sizes="(max-width: 546px) 100vw, 546px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/google.jpg"/>
-</picture>
-<noscript><picture class="d-inline-block mb-3">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/google.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-150x69.jpg.webp 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="https://www.amsivedigital.com/wp-content/uploads/2021/03/google.jpg" alt="Premier Google Partner | Amsive Digital" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/google.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/google-150x69.jpg 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-</picture>
-</noscript>							</div>
-																			<div class="desc-holder mb-5 px-md-3">
-								<p><strong>Google</strong></p>
-<p>Display Innovation Award, North America</p>
-							</div>
-											</div>
-										<div class="logo-item text-center rest-select align-self-top  flexed">						
-													
-							<div class="mx-auto logo-holder" >
-								<picture class="d-inline-block mb-3">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-150x69.jpg.webp 150w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" alt="US Search Awards Logo | Amsive Digital" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-150x69.jpg 150w" data-lazy-sizes="(max-width: 546px) 100vw, 546px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch.jpg"/>
-</picture>
-<noscript><picture class="d-inline-block mb-3">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-150x69.jpg.webp 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch.jpg" alt="US Search Awards Logo | Amsive Digital" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/ussearch-150x69.jpg 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-</picture>
-</noscript>							</div>
-																			<div class="desc-holder mb-5 px-md-3">
-								<p><strong>U.S. Search Award</strong></p>
-<p>Best Use of Search &#8211; FMCG Campaign</p>
-<p>Best SEO Campaign for Health</p>
-							</div>
-											</div>
-										<div class="logo-item text-center rest-select align-self-top  flexed">						
-													
-							<div class="mx-auto logo-holder" >
-								<picture class="d-inline-block mb-3">
-<source type="image/webp" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-150x69.jpg.webp 150w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20546%20250&#039;%3E%3C/svg%3E" alt="Marcom Awards Logo | Amsive Digital" data-lazy-srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-150x69.jpg 150w" data-lazy-sizes="(max-width: 546px) 100vw, 546px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom.jpg"/>
-</picture>
-<noscript><picture class="d-inline-block mb-3">
-<source type="image/webp" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom.jpg.webp 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-437x200.jpg.webp 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-400x183.jpg.webp 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-150x69.jpg.webp 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-<img width="546" height="250" src="https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom.jpg" alt="Marcom Awards Logo | Amsive Digital" srcset="https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom.jpg 546w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-437x200.jpg 437w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-400x183.jpg 400w, https://www.amsivedigital.com/wp-content/uploads/2021/03/marcom-150x69.jpg 150w" sizes="(max-width: 546px) 100vw, 546px"/>
-</picture>
-</noscript>							</div>
-																			<div class="desc-holder mb-5 px-md-3">
-								<p><strong>Marcom Awards</strong></p>
-<p>Platinum and Gold Winners, Website Design &amp; Development</p>
-							</div>
-											</div>
-									</div>
-									<div class="row d-md-none d-flex">
-						<div class="col-12 py-5 text-center">
-							<a class="btn btn-primary logo-toggle" id="block_605cdce52280f-logo-toggle" onclick="block_605cdce52280f_logoToggle()" >View More +</a>
-						</div>
-					</div>
-							</div>
-		</div>
-			</div>
-
-</section>
 
 
 	
@@ -340,52 +155,33 @@ Rivers State
 							</div>			
 		</div>
 					<div class="row py-md-3 five-row justify-content-center">
+						<?php
+						 $about = [
+						   ['title' => "Accountable",'img' => "images/about-2.svg", 'copy' => "We don't make promises. We deliver — and support each other along the way."],
+						   ['title' => "Solution",'img' => "images/about-3.svg", 'copy' => "Problem-solving is first nature to us. Our collective growth mindset keeps us searching for the best solutions."],
+						   ['title' => "Natural mentors",'img' => "images/about-4.svg", 'copy' => "We put our strategic thinking to the test. And create SMART goals and metrics to track successes."],
+						   ['title' => "Proud of our work",'img' => "images/about-3.svg", 'copy' => "Our work reflects all the dedication, thinking, and heart we put into it — so we're proud of it."],
+						   ['title' => "Avid mentors",'img' => "images/about-4.svg", 'copy' => "With a growing team of experts, specialists, and passionate leaders of their craft and industry, we learn and grow from each other."],
+                         ];
+                         
+                          foreach($about as $a)
+                          {
+						?>
 									<div class="col-sm-6 py-3 px-md-3 px-2 text-center">							
-													<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="mb-2" alt="Icon - About Us - What we&#039;re about - Accountable" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-About-Us-What-were-about-Accountable.svg" /><noscript><img src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-About-Us-What-were-about-Accountable.svg" class="mb-2" alt="Icon - About Us - What we&#039;re about - Accountable" /></noscript>																			<h6 class="five-title mb-2 ">Accountable</h6>
-																			<div class="small-font text-base">We don't make promises. We deliver — and support each other along the way.</div>
+													<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="mb-2" alt="{{$a['title']}}" data-lazy-src="{{$a['img']}}" /><noscript><img src="{{$a['img']}}" class="mb-2" alt="{{$a['title']}}" /></noscript>																			
+                                               <h6 class="five-title mb-2 ">{{$a['title']}}</h6>
+																			<div class="small-font text-base">{{$a['copy']}}</div>
 											</div>
-									<div class="col-sm-6 py-3 px-md-3 px-2 text-center">							
-													<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="mb-2" alt="Icon - About Us - What we&#039;re about - Solution" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-About-Us-What-were-about-Solution.svg" /><noscript><img src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-About-Us-What-were-about-Solution.svg" class="mb-2" alt="Icon - About Us - What we&#039;re about - Solution" /></noscript>																			<h6 class="five-title mb-2 ">Solution-focused</h6>
-																			<div class="small-font text-base">Problem-solving is first nature to us. Our collective growth mindset keeps us searching for the best solutions.</div>
-											</div>
-									<div class="col-sm-6 py-3 px-md-3 px-2 text-center">							
-													<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="mb-2" alt="Icon - About Us - What we&#039;re about - Natural mentors" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-About-Us-What-were-about-Natural-mentors.svg" /><noscript><img src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-About-Us-What-were-about-Natural-mentors.svg" class="mb-2" alt="Icon - About Us - What we&#039;re about - Natural mentors" /></noscript>																			<h6 class="five-title mb-2 ">Action-oriented</h6>
-																			<div class="small-font text-base">We put our strategic thinking to the test. And create SMART goals and metrics to track successes.</div>
-											</div>
-									<div class="col-sm-6 py-3 px-md-3 px-2 text-center">							
-													<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="mb-2" alt="Icon - About Us - What we&#039;re about - Solution" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-About-Us-What-were-about-Solution.svg" /><noscript><img src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-About-Us-What-were-about-Solution.svg" class="mb-2" alt="Icon - About Us - What we&#039;re about - Solution" /></noscript>																			<h6 class="five-title mb-2 ">Proud of our work</h6>
-																			<div class="small-font text-base">Our work reflects all the dedication, thinking, and heart we put into it — so we're proud of it.</div>
-											</div>
-									<div class="col-sm-6 py-3 px-md-3 px-2 text-center">							
-													<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="mb-2" alt="Icon - About Us - What we&#039;re about - Natural mentors" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-About-Us-What-were-about-Natural-mentors.svg" /><noscript><img src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-About-Us-What-were-about-Natural-mentors.svg" class="mb-2" alt="Icon - About Us - What we&#039;re about - Natural mentors" /></noscript>																			<h6 class="five-title mb-2 ">Avid mentors</h6>
-																			<div class="small-font text-base">With a growing team of experts, specialists, and passionate leaders of their craft and industry, we learn and grow from each other.</div>
-											</div>
+							<?php
+							}
+							?>
+									
+									
+									
 							</div>
 			</div>
 </section>
-<div><div class="container-fluid mw-xl">
 
-
-					<style>
-				#block_60b05678f082a {
-										background: #404040;
-															color: #ffffff;
-									}
-				#block_60b05678f082a svg * {
-										fill: #ffffff;
-									}
-			</style>
-		</div></div><section id="block_60b05678f082a" class="content-block  alignfull background-404040 py-md-5 py-4 wp-block-acf-adtheme-cta alignfull adtheme-cta has-font-color text-default">			<div class="container-fluid mw-xl">
-				<div class="row py-md-2 px-md-0 px-3">
-									<div class="col-md-10 offset-md-1 text-center py-md-4">
-																	<h2 class="cta-title display-2">Join our winning team.</h2>
-																	<p class="cta-text mb-0 mt-4 px-md-2">We eat, sleep, and breathe digital. Hardworking and collaborative, our team works side-by-side with clients to explore the best solutions — and achieve the big wins.</p>
-																					
-							<a href="https://amsivedigital.applytojob.com/" class="animate-arrow pe-5 mt-5 d-inline-block" target="_blank" >We're hiring <svg xmlns="http://www.w3.org/2000/svg" width="21" height="17" viewBox="0 0 448 512"><path fill="%23000000" d="M311.03 131.515l-7.071 7.07c-4.686 4.686-4.686 12.284 0 16.971L387.887 239H12c-6.627 0-12 5.373-12 12v10c0 6.627 5.373 12 12 12h375.887l-83.928 83.444c-4.686 4.686-4.686 12.284 0 16.971l7.071 7.07c4.686 4.686 12.284 4.686 16.97 0l116.485-116c4.686-4.686 4.686-12.284 0-16.971L328 131.515c-4.686-4.687-12.284-4.687-16.97 0z"></path></svg></a>
-																		</div>
-									</div>		
-			</div>
-		</section>
 <div><div class="container-fluid mw-xl">			</div>
 			
 	
@@ -405,7 +201,7 @@ Rivers State
 					<div class="col-xl-7 col-md-6 py-md-4">
 													<h2 class="cta-title display-2 w-xl-75 me-5 me-md-0">Find out what we can do for your bottom line.</h2>
 																	<p class="cta-text mb-0 mt-4 px-md-2">Our flexible solutions will help you meet (and exceed) your business goals.</p>
-																										<a href="https://www.amsivedigital.com/contact/" target="_self" class="btn btn-primary mt-4" target="_self">
+																										<a href="{{url('contact')}}" target="_self" class="btn btn-primary mt-4" target="_self">
 							Let&#039;s Talk						</a>
 											</div>				
 				</div>		

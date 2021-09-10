@@ -293,6 +293,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 <li id="menu-item-{{$i}}" class="menu-item"><a href="{{$s['href']}}">{{$s['title']}}>
 <?php
 $i += 2;
+  }
 ?>
 </ul></div></div>					</div>
 				</div>

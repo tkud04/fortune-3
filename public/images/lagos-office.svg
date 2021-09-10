@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="81" viewBox="0 0 81 81">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_21" data-name="Ellipse 21" cx="40.5" cy="40.5" r="40.5" transform="translate(400 1673)" fill="#a725ad"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_-_New_York_Office_" data-name="Icon - New York Office " transform="translate(-400 -1673)">
+    <circle id="Ellipse_24" data-name="Ellipse 24" cx="40.5" cy="40.5" r="40.5" transform="translate(400 1673)" fill="#a725ad"/>
+    <g id="Mask_Group_10" data-name="Mask Group 10" clip-path="url(#clip-path)">
+      <g id="Layer_1" transform="translate(407.5 1668.841)">
+        <g id="Group_151" data-name="Group 151" transform="translate(8.5 -12.8)">
+          <rect id="Rectangle_158" data-name="Rectangle 158" width="1.731" height="5.408" transform="translate(36.344 64.791)" fill="#fff"/>
+          <rect id="Rectangle_159" data-name="Rectangle 159" width="1.731" height="5.408" transform="translate(36.344 72.254)" fill="#fff"/>
+          <rect id="Rectangle_160" data-name="Rectangle 160" width="1.731" height="5.408" transform="translate(36.56 87.073)" fill="#fff"/>
+          <rect id="Rectangle_161" data-name="Rectangle 161" width="1.731" height="5.408" transform="translate(40.454 87.073)" fill="#fff"/>
+          <g id="Group_150" data-name="Group 150">
+            <rect id="Rectangle_162" data-name="Rectangle 162" width="1.731" height="5.408" transform="translate(25.419 57.328)" fill="#fff"/>
+            <rect id="Rectangle_163" data-name="Rectangle 163" width="1.731" height="5.408" transform="translate(21.633 57.328)" fill="#fff"/>
+            <rect id="Rectangle_164" data-name="Rectangle 164" width="1.731" height="5.408" transform="translate(25.419 64.791)" fill="#fff"/>
+            <rect id="Rectangle_165" data-name="Rectangle 165" width="1.731" height="5.408" transform="translate(32.774 64.791)" fill="#fff"/>
+            <rect id="Rectangle_166" data-name="Rectangle 166" width="1.731" height="5.408" transform="translate(32.774 72.254)" fill="#fff"/>
+            <rect id="Rectangle_167" data-name="Rectangle 167" width="1.731" height="5.408" transform="translate(21.633 64.791)" fill="#fff"/>
+            <rect id="Rectangle_168" data-name="Rectangle 168" width="1.731" height="5.408" transform="translate(25.419 72.254)" fill="#fff"/>
+            <rect id="Rectangle_169" data-name="Rectangle 169" width="1.731" height="5.408" transform="translate(21.633 72.254)" fill="#fff"/>
+            <rect id="Rectangle_170" data-name="Rectangle 170" width="1.731" height="5.408" transform="translate(25.419 79.718)" fill="#fff"/>
+            <rect id="Rectangle_171" data-name="Rectangle 171" width="1.731" height="5.408" transform="translate(21.633 79.718)" fill="#fff"/>
+            <rect id="Rectangle_172" data-name="Rectangle 172" width="1.731" height="5.408" transform="translate(25.419 87.181)" fill="#fff"/>
+            <rect id="Rectangle_173" data-name="Rectangle 173" width="1.731" height="5.408" transform="translate(21.633 87.181)" fill="#fff"/>
+            <rect id="Rectangle_174" data-name="Rectangle 174" width="1.731" height="5.408" transform="translate(14.386 64.791)" fill="#fff"/>
+            <rect id="Rectangle_175" data-name="Rectangle 175" width="1.731" height="5.408" transform="translate(10.6 64.791)" fill="#fff"/>
+            <rect id="Rectangle_176" data-name="Rectangle 176" width="1.731" height="5.408" transform="translate(14.386 72.254)" fill="#fff"/>
+            <rect id="Rectangle_177" data-name="Rectangle 177" width="1.731" height="5.408" transform="translate(10.6 72.254)" fill="#fff"/>
+            <rect id="Rectangle_178" data-name="Rectangle 178" width="1.731" height="5.408" transform="translate(10.492 87.073)" fill="#fff"/>
+            <rect id="Rectangle_179" data-name="Rectangle 179" width="1.731" height="5.408" transform="translate(6.706 87.073)" fill="#fff"/>
+            <rect id="Rectangle_180" data-name="Rectangle 180" width="1.731" height="5.408" transform="translate(14.386 87.073)" fill="#fff"/>
+            <rect id="Rectangle_181" data-name="Rectangle 181" width="1.731" height="5.408" transform="translate(32.774 87.073)" fill="#fff"/>
+            <path id="Path_81" data-name="Path 81" d="M53.929,86.388V70.92H50.035V48.638H46.9V40.417H44.735V35.009H41.382V31.656h-2.7V28.627H36.623v-4H35.541V6.453H33.919V-12.8H32.188V6.345H30.566V24.517h-.973v4H27.537v3.029h-2.7V34.9H21.48v5.408H19.1V48.53H15.963V70.812h-4.11V86.279H8.5v1.839H58.04V86.388ZM48.3,50.368V70.92H46.682v-4H44.844v4H42.9v-4H41.166v4H39.219V50.368ZM31.323,26.248h3.569v2.271H31.323V26.248ZM32.3,8.184h1.514v2.38H32.3Zm0,4h1.514v2.055H32.3Zm0,3.894h1.514v8.437H32.3ZM29.268,30.25h7.572v1.3H29.268Zm-2.7,3.137h12.98v1.622H26.564ZM23.1,36.74H42.9v3.678H41.058V38.362H39.327v1.947H36.3V38.362H34.568v1.947H31.539V38.362H29.809v1.947H26.78V38.362H25.049v1.947H23.1Zm3.245,49.648H24.617V81.845H22.886v4.543H20.723V81.845H18.884v4.543H16.829V81.845H15.1v4.543H13.584V72.651H26.347Zm0-15.468H24.725V67.026H22.994V70.92H20.939V67.026H19.208V70.92H17.694V50.368h8.761V70.92ZM37.6,86.388H35.649V81.953H33.919v4.435H31.864V81.953H30.133v4.435H28.078V44.528H26.347v4.11H24.4v-4H22.67v4H20.831v-6.49H45.168v6.49H43.329v-4H41.6v4H39.435v-4.11H37.7L37.6,86.388Zm14.494,0H50.684V81.845H48.954v4.543H46.79V81.845H45.06v4.543H43V81.845H41.274v4.543H39.327V72.651H52.091Z" transform="translate(-8.5 12.8)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

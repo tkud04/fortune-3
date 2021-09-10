@@ -111,7 +111,10 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 					<div class="logo-wrap">
 												<a class="logo" href="{{url('/')}}" id="site-logo"
 						   title="Gorals" rel="home">
-							<div class="svg-logo"><canvas id="iesvg"></canvas><svg id="Amsive_Digital_-_Logo_Multi" data-name="Gorals - Logo Multi" xmlns="http://www.w3.org/2000/svg" width="199" height="81" viewBox="0 0 415.703 169.939">
+							<div class="svg-logo">
+							<img src="images/logo.jpg">
+							<!--
+							<canvas id="iesvg"></canvas><svg id="Amsive_Digital_-_Logo_Multi" data-name="Gorals - Logo Multi" xmlns="http://www.w3.org/2000/svg" width="199" height="81" viewBox="0 0 415.703 169.939">
   <g id="Group_61" data-name="Group 61" transform="translate(0 0)">
     <path id="Path_57" data-name="Path 57" d="M1667.22,460.163,1643.4,384.9h16.753l17.979,63.707,17.979-63.707h16.732l-23.82,75.263Z" transform="translate(-1364.172 -383.32)" fill="#7C0080"/>
     <rect id="Rectangle_107" data-name="Rectangle 107" width="15.63" height="75.263" transform="translate(253.371 1.58)" fill="#7C0080"/>
@@ -130,6 +133,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
     <path id="Path_68" data-name="Path 68" d="M2165.3,997.62V946.8h5.653v45.748h22.323v5.072Z" transform="translate(-1967.571 -946.073)" fill="#8C8C8C"/>
   </g>
 </svg>
+-->
 </div>														</a>
 					</div>
 					<button id="togglemobh" class="hamburger hamburger--spin navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#mobile-nav" aria-controls="mobile-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -245,33 +249,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 					<div class="col-12 text-start small-font pb-4">
 						<p>Gorals is a pan-African marketing and communications agency providing data-driven market research, digital media, paid and managed social, analytics, creative, SEO, influencer marketing and web design and development services that help brands grow.</p>
 					</div>
-					<div class="col-12 text-start pt-md-5">
-						<div class="widget gform_widget gform_widget-3"><link data-minify="1" rel='stylesheet' id='gform_basic-css'  href='css/basic.min.css?ver=1628889607' type='text/css' media='all' />
-<link rel='stylesheet' id='gform_theme_ie11-css'  href='css/theme-ie11.min.css?ver=2.5.9' type='text/css' media='all' />
-<link rel='stylesheet' id='gform_theme-css'  href='css/theme.min.css?ver=2.5.9' type='text/css' media='all' />
-<script type="rocketlazyloadscript" data-rocket-type="text/javascript"></script>
-                <div class='gf_browser_chrome gform_wrapper gravity-theme fake-submit-form_wrapper' id='gform_wrapper_13' >
-                        <div class='gform_heading'>
-                            <span class='gform_description'>Subscribe to our newsletter</span>
-                        </div><form method='post' enctype='multipart/form-data'  id='gform_13' class='fake-submit-form' action='/' novalidate>
-                        <div class='gform_body gform-body'><div id='gform_fields_13' class='gform_fields top_label form_sublabel_below description_below'><div id="field_13_1" class="gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_13_1' >Email<span class="gfield_required"><span class="gfield_required gfield_required_text">(Required)</span></span></label><div class='ginput_container ginput_container_email'>
-                            <input name='input_1' id='input_13_1' type='email' value='' class='large'   placeholder='Enter Your Email' aria-required="true" aria-invalid="false"  />
-                        </div></div><div id="field_13_4" class="gfield gfield--width-full gfield_html gfield_html_formatted gfield_no_follows_desc field_sublabel_below field_description_below gfield_visibility_visible" ><button  id="foot-fake" class="btn btn-primary">Submit</button></div><div id="field_13_5" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible" ><div class='ginput_container ginput_container_text'><input name='input_5' id='input_13_5' type='hidden' class='gform_hidden'  aria-invalid="false" value='Email Subscription' /></div></div><div id="field_13_6" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible" ><div class='ginput_container ginput_container_text'><input name='input_6' id='input_13_6' type='hidden' class='gform_hidden'  aria-invalid="false" value='https://www.amsivedigital.com/' /></div></div><div id="field_13_7" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible" ><div class='ginput_container ginput_container_text'><input name='input_7' id='input_13_7' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_13_8" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible" ><div class='ginput_container ginput_container_text'><input name='input_8' id='input_13_8' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_13_9" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible" ><div class='ginput_container ginput_container_text'><input name='input_9' id='input_13_9' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_13_10" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible" ><div class='ginput_container ginput_container_text'><input name='input_10' id='input_13_10' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_13_11" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible" ><div class='ginput_container ginput_container_text'><input name='input_11' id='input_13_11' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></div></div><div id="field_13_12" class="gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible" ><div class='ginput_container ginput_container_text'><input name='input_12' id='input_13_12' type='hidden' class='gform_hidden'  aria-invalid="false" value='1' /></div></div><div id="field_13_13" class="gfield gform_validation_container field_sublabel_below field_description_below gfield_visibility_visible" ><label class='gfield_label' for='input_13_13' >Comments</label><div class='ginput_container'><input name='input_13' id='input_13_13' type='text' value='' autocomplete='new-password'/></div><div class='gfield_description' id='gfield_description_13_13'>This field is for validation purposes and should be left unchanged.</div></div></div></div>
-        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_13' class='gform_button button' value='Submit'  onclick='if(window["gf_submitting_13"]){return false;}  if( !jQuery("#gform_13")[0].checkValidity || jQuery("#gform_13")[0].checkValidity()){window["gf_submitting_13"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_13"]){return false;} if( !jQuery("#gform_13")[0].checkValidity || jQuery("#gform_13")[0].checkValidity()){window["gf_submitting_13"]=true;}  jQuery("#gform_13").trigger("submit",[true]); }' /> 
-            <input type='hidden' class='gform_hidden' name='is_submit_13' value='1' />
-            <input type='hidden' class='gform_hidden' name='gform_submit' value='13' />
-            
-            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
-            <input type='hidden' class='gform_hidden' name='state_13' value='WyJbXSIsIjdlMDRkNmI0MWYzNzkwNDY5ZmM0MDBiZjZhZWRjYzYzIl0=' />
-            <input type='hidden' class='gform_hidden' name='gform_target_page_number_13' id='gform_target_page_number_13' value='0' />
-            <input type='hidden' class='gform_hidden' name='gform_source_page_number_13' id='gform_source_page_number_13' value='1' />
-            <input type='hidden' name='gform_field_values' value='' />
-            
-        </div>
-                        </form>
-                        </div>
-
-</div>					</div>
+					
 				</div>
 			</div>
 			<div class="col-12 col-lg-4 col-md-6 pt-5 pt-md-0 titillium-web">
@@ -290,7 +268,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 	foreach($services as $s)
 	 {
 	?>
-<li id="menu-item-{{$i}}" class="menu-item"><a href="{{$s['href']}}">{{$s['title']}}>
+<li id="menu-item-{{$i}}" class="menu-item"><a href="{{$s['href']}}">{{$s['title']}}</a></li>
 <?php
 $i += 2;
   }
@@ -302,7 +280,7 @@ $i += 2;
 		
 		<div class="row copyright titillium-web py-3 mt-2">
 			<div class="col-12 col-md-6 text-center text-md-start my-auto">
-				<p>&copy; {{date("Y")}} Gorals. All rights reserved.</p>
+				<p>&copy; {{date("Y")}} Gorals Africa. All rights reserved.</p>
 			</div>
 			<div class="col-12 col-md-6 text-center text-md-end  my-auto">
 				<div class="widget widget_nav_menu nav_menu-6"><div class="menu-copyright-menu-container">

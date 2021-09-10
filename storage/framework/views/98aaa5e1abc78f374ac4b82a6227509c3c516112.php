@@ -5,6 +5,7 @@ $plugins = [];
 $signals = ['okays' => []];
 $user = null;
 $banners = [];
+$services = [];
 if(Auth::check()) $user = Auth::user();
 ?>
 
@@ -52,4 +53,5 @@ if(Auth::check()) $user = Auth::user();
 							</div>			
 		</div>
 <?php $__env->stopSection(); ?>
+
 <?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\bkupp\lokl\repo\fortune-3\resources\views/errors/404.blade.php ENDPATH**/ ?>

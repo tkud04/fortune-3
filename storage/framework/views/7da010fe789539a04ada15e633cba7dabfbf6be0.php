@@ -3,16 +3,16 @@ $pcClass = "";
 $r1 = "images/r1.webp";
 $r2 = "images/r2.webp";
 ?>
-@extends('layout')
-
-
-@section('title',"Results")
 
 
 
-@section('bodyClass',"page-about noawesome hashero-image hashero")
+<?php $__env->startSection('title',"Results"); ?>
 
-@section('content')
+
+
+<?php $__env->startSection('bodyClass',"page-about noawesome hashero-image hashero"); ?>
+
+<?php $__env->startSection('content'); ?>
 <div class="container-fluid mw-xl">
 			<div class="main-content home-page">
 					<style>	
@@ -24,15 +24,15 @@ $r2 = "images/r2.webp";
 <section id="block_607ceaf274787" class="content-block d-flex  alignfull adtheme-hero align-items-end mob-stack color-as-herotype height-def has-background background-000000 has-background image-as-background has-font-color text-default">			
 			<div class="image-background  background-000000 d-none d-sm-block">
 				<picture class="skip-lazy object-cover object-center w-100 h-100" aria-hidden="true" loading="eager">
-<source type="image/webp" srcset="{{$r1}} 1920w, {{$r1}} 1151w, {{$r1}} 1871w, {{$r1}} 576w, {{$r1}} 768w, {{$r1}} 1536w" sizes="(max-width: 1920px) 100vw, 1920px"/>
-<img width="1920" height="667" src="{{$r1}}" alt="services_hero_opt" aria-hidden="true" loading="eager" srcset="{{$r1}} 1920w, {{$r1}} 1151w, {{$r1}} 1871w, {{$r1}} 576w, {{$r1}} 768w, {{$r1}} 1536w" sizes="(max-width: 1920px) 100vw, 1920px"/>
+<source type="image/webp" srcset="<?php echo e($r1); ?> 1920w, <?php echo e($r1); ?> 1151w, <?php echo e($r1); ?> 1871w, <?php echo e($r1); ?> 576w, <?php echo e($r1); ?> 768w, <?php echo e($r1); ?> 1536w" sizes="(max-width: 1920px) 100vw, 1920px"/>
+<img width="1920" height="667" src="<?php echo e($r1); ?>" alt="services_hero_opt" aria-hidden="true" loading="eager" srcset="<?php echo e($r1); ?> 1920w, <?php echo e($r1); ?> 1151w, <?php echo e($r1); ?> 1871w, <?php echo e($r1); ?> 576w, <?php echo e($r1); ?> 768w, <?php echo e($r1); ?> 1536w" sizes="(max-width: 1920px) 100vw, 1920px"/>
 </picture>
 			</div>
 			
 						<div class="image-background skip-lazy  background-000000 d-block d-sm-none">
 				<picture class="skip-lazy object-cover object-center w-100 h-100" aria-hidden="true" loading="eager">
-<source type="image/webp" srcset="{{$r2}} 530w, {{$r2}} 424w, {{$r2}} 212w" sizes="(max-width: 530px) 100vw, 530px"/>
-<img width="530" height="500" src="{{$r2}}" alt="services_hero_image_mob" aria-hidden="true" loading="eager" srcset="{{$r2}} 530w, {{$r2}} 424w, {{$r2}} 212w" sizes="(max-width: 530px) 100vw, 530px"/>
+<source type="image/webp" srcset="<?php echo e($r2); ?> 530w, <?php echo e($r2); ?> 424w, <?php echo e($r2); ?> 212w" sizes="(max-width: 530px) 100vw, 530px"/>
+<img width="530" height="500" src="<?php echo e($r2); ?>" alt="services_hero_image_mob" aria-hidden="true" loading="eager" srcset="<?php echo e($r2); ?> 530w, <?php echo e($r2); ?> 424w, <?php echo e($r2); ?> 212w" sizes="(max-width: 530px) 100vw, 530px"/>
 </picture>
 			</div>
 						
@@ -107,23 +107,23 @@ foreach($pairs as $pair)
      ?>
      	<div class="col-md-6 single-grid g-type-2 mb-0 p-0">
 	<div class="grid-in  withtext islinked" >
-		<a href="{{$p['href']}}" class="grid-link" ><span class="visually-hidden">{{$p['name']}}</span></a>		
+		<a href="<?php echo e($p['href']); ?>" class="grid-link" ><span class="visually-hidden"><?php echo e($p['name']); ?></span></a>		
 		  <div class="image-background" aria-hidden="true">
 			 <picture class="zoom-img">
-                <source type="image/webp" data-lazy-srcset="{{$p['img']}} 463w, {{$p['img']}} 410w, {{$p['img']}} 205w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20463%20452&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 463px) 100vw, 463px"/>
-                <img width="463" height="452" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20463%20452&#039;%3E%3C/svg%3E" alt="thesak" data-lazy-srcset="{{$p['img']}} 463w, {{$p['img']}} 410w, {{$p['img']}} 205w" data-lazy-sizes="(max-width: 463px) 100vw, 463px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/05/thesak.jpg"/>
+                <source type="image/webp" data-lazy-srcset="<?php echo e($p['img']); ?> 463w, <?php echo e($p['img']); ?> 410w, <?php echo e($p['img']); ?> 205w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20463%20452&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 463px) 100vw, 463px"/>
+                <img width="463" height="452" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%20463%20452&#039;%3E%3C/svg%3E" alt="thesak" data-lazy-srcset="<?php echo e($p['img']); ?> 463w, <?php echo e($p['img']); ?> 410w, <?php echo e($p['img']); ?> 205w" data-lazy-sizes="(max-width: 463px) 100vw, 463px" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/05/thesak.jpg"/>
              </picture>
              <noscript><picture class="zoom-img">
-               <source type="image/webp" srcset="{{$p['img']}} 463w, {{$p['img']}} 410w, {{$p['img']}} 205w" sizes="(max-width: 463px) 100vw, 463px"/>
-                <img width="463" height="452" src="{{$p['img']}}" alt="{{$p['name']}}" srcset="{{$p['img']}} 463w, {{$p['img']}} 410w, {{$p['img']}} 205w" sizes="(max-width: 463px) 100vw, 463px"/>
+               <source type="image/webp" srcset="<?php echo e($p['img']); ?> 463w, <?php echo e($p['img']); ?> 410w, <?php echo e($p['img']); ?> 205w" sizes="(max-width: 463px) 100vw, 463px"/>
+                <img width="463" height="452" src="<?php echo e($p['img']); ?>" alt="<?php echo e($p['name']); ?>" srcset="<?php echo e($p['img']); ?> 463w, <?php echo e($p['img']); ?> 410w, <?php echo e($p['img']); ?> 205w" sizes="(max-width: 463px) 100vw, 463px"/>
                 </picture>
              </noscript>		
        	</div>
 		   <div class="text-start text-white grid-over">	
 			 <div class="p-3 copy-holder">
-				<p class="gr-t mb-lg-4 mb-3 titillium-web font-weight-normal">{{$p['name']}}</p>
-				<div class="gr-sub display-2 text-white mb-lg-4 mb-3">{{$p['num']}}</div>
-				<p class="gr-cat text-start grid-cat pe-lg-5 me-lg-5">{{$p['services']}}</p>
+				<p class="gr-t mb-lg-4 mb-3 titillium-web font-weight-normal"><?php echo e($p['name']); ?></p>
+				<div class="gr-sub display-2 text-white mb-lg-4 mb-3"><?php echo e($p['num']); ?></div>
+				<p class="gr-cat text-start grid-cat pe-lg-5 me-lg-5"><?php echo e($p['services']); ?></p>
 			 </div>	
 		   </div>		
 	</div>
@@ -196,9 +196,11 @@ foreach($pairs as $pair)
 					<div class="col-xl-7 col-md-6 py-md-4">
 													<h2 class="cta-title display-2 w-xl-75 me-5 me-md-0">Find out what we can do for your bottom line.</h2>
 																	<p class="cta-text mb-0 mt-4 px-md-2">Our flexible solutions will help you meet (and exceed) your business goals.</p>
-																<a href="{{url('contact')}}" target="_self" class="btn btn-primary mt-4">Let's Talk	</a>
+																<a href="<?php echo e(url('contact')); ?>" target="_self" class="btn btn-primary mt-4">Let's Talk	</a>
 											</div>				
 				</div>		
 			</div>
 		</section>
-@stop
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\bkupp\lokl\repo\fortune-3\resources\views/results.blade.php ENDPATH**/ ?>

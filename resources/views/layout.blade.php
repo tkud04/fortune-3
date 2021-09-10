@@ -155,8 +155,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 	?>
 </ul>
 </li>
-<li class=" menu-item nav-item firstline" ><a href="javascript:void(0)" class="nav-link "><span>Results</span></a></li>
-<li class=" menu-item nav-item firstline" ><a href="javascript:void(0)" class="nav-link "><span>Insights</span></a></li>
+<li class=" menu-item nav-item firstline" ><a href="{{url('results')}}" class="nav-link "><span>Results</span></a></li>
 <li class="boxed menu-item nav-item firstline" ><a href="{{url('contact')}}" class="nav-link "><span>Contact</span></a></li>
 </ul>
 </div>
@@ -180,8 +179,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 	?>
 </ul>
 </li>
-<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16105" class="menu-item nav-item"><a title="Results" href="javascript:void(0)" class="nav-link">Results</a></li>
-<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-14808" class="menu-item nav-item"><a title="Insights" href="javascript:void(0)" class="nav-link">Insights</a></li>
+<li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-16105" class="menu-item nav-item"><a title="Results" href="{{url('results')}}" class="nav-link">Results</a></li>
 <li itemscope="itemscope" itemtype="https://www.schema.org/SiteNavigationElement" id="menu-item-14119" class="boxed menu-item nav-item"><a title="Contact" href="{{url('contact')}}" class="nav-link">Contact</a></li>
 </ul>
 </div>      
@@ -279,22 +277,23 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 			<div class="col-12 col-lg-4 col-md-6 pt-5 pt-md-0 titillium-web">
 				<div class="row">
 					<div class="col-6">
-						<div class="widget widget_nav_menu nav_menu-8"><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu"><li id="menu-item-14488" class="menu-item"><a href="{{url('about')}}">About</a></li>
+						<div class="widget widget_nav_menu nav_menu-8"><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu">
+<li id="menu-item-14488" class="menu-item"><a href="{{url('about')}}">About</a></li>
 <li id="menu-item-14489" class="menu-item"><a href="javascript:void(0)">Services</a></li>
-<li id="menu-item-15263" class="menu-item"><a href="javascript:void(0)">Insights</a></li>
-<li id="menu-item-15439" class="menu-item"><a href="javascript:void(0)">Announcement</a></li>
 <li id="menu-item-14487" class="menu-item"><a href="{{url('contact')}}">Contact Us</a></li>
-<li id="menu-item-15785" class="menu-item"><a target="_blank" rel="noopener" href="javascript:void(0)">Careers</a></li>
 </ul></div></div>					</div>
 					<div class="col-6">
 						<div class="widget widget_nav_menu nav_menu-9"><div class="menu-footer-sub-services-container">
 <ul id="menu-footer-sub-services" class="menu">
-<li id="menu-item-15340" class="menu-item"><a href="javascript:void(0)">Paid Media</a></li>
-<li id="menu-item-15339" class="menu-item"><a href="javascript:void(0)">SEO</a></li>
-<li id="menu-item-15338" class="menu-item"><a href="javascript:void(0)">Social</a></li>
-<li id="menu-item-15337" class="menu-item"><a href="javascript:void(0)">Performance Creative</a></li>
-<li id="menu-item-15336" class="menu-item"><a href="javascript:void(0)">Data + Analytics</a></li>
-<li id="menu-item-15335" class="menu-item"><a href="javascript:void(0)">Strategy</a></li>
+<?php
+   $i = 16098;
+	foreach($services as $s)
+	 {
+	?>
+<li id="menu-item-{{$i}}" class="menu-item"><a href="{{$s['href']}}">{{$s['title']}}>
+<?php
+$i += 2;
+?>
 </ul></div></div>					</div>
 				</div>
 			</div>

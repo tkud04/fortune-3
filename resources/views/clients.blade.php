@@ -1,7 +1,7 @@
 <?php
 $pcClass = "";
-$r1 = "images/r1.jpg";
-$r2 = "images/r2.jpg";
+$r1 = "images/r1.webp";
+$r2 = "images/r2.webp";
 ?>
 @extends('layout')
 

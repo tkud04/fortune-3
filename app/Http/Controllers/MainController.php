@@ -70,6 +70,55 @@ class MainController extends Controller {
     	return view("about",compact(['user','services','banners','pe','signals','plugins']));
     }
 
+   /**
+	 * Show the application results screen to the user.
+	 *
+	 * @return Response
+	 */
+	public function getResults(Request $request)
+    {
+		$user = null;
+		if(Auth::check())
+		{
+			$user = Auth::user();
+		}
+		
+		$req = $request->all();
+                $services = $this->helpers->services;
+
+		$signals = $this->helpers->signals;
+		$pe = $this->helpers->getPhoneAndEmail();
+		$plugins = $this->helpers->getPlugins();
+		$banners = $this->helpers->getBanners();
+		
+    	return view("results",compact(['user','services','banners','pe','signals','plugins']));
+    
+    }
+
+   /**
+	 * Show the application contact screen to the user.
+	 *
+	 * @return Response
+	 */
+	public function getContact(Request $request)
+    {
+		$user = null;
+		if(Auth::check())
+		{
+			$user = Auth::user();
+		}
+		
+		$req = $request->all();
+                $services = $this->helpers->services;
+
+		$signals = $this->helpers->signals;
+		$pe = $this->helpers->getPhoneAndEmail();
+		$plugins = $this->helpers->getPlugins();
+		$banners = $this->helpers->getBanners();
+		
+    	return view("contact",compact(['user','services','banners','pe','signals','plugins']));
+    }
+
 /**
 	 * Show the application service screen to the user.
 	 *

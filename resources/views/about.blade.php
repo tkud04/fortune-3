@@ -61,7 +61,7 @@ $banner = "images/service-footer.jpg";
 		<div class="row py-md-2 ">
 			<div class="col-md-6 py-md-4">
 				<div class="me-md-5 pe-md-5">
-													<h2 class="cta-title h2 mb-0">Digital marketing with omnichannel possibilities.</h2>						
+													<h2 class="cta-title h2 mb-0">Marketing solutions with omnichannel possibilities.</h2>						
 												
 				</div>
 			</div>
@@ -106,17 +106,20 @@ $banner = "images/service-footer.jpg";
 			<div class="col-md-6 py-md-4">
 									<div class="row">					
 												<div class="col-6 mb-5 text-md-start text-sm-center text-start">
-															<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="office-ico mb-3" alt="Icon - New York Office" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-New-York-Office.svg" /><noscript><img src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-New-York-Office.svg" class="office-ico mb-3" alt="Icon - New York Office" /></noscript>																						<div class="h4 mb-2 titillium-web">New York, NY</div>
-																						<div class="text-base">Amsive Digital<br />
-915 Broadway Ste 501<br />
-New York, NY 10010<br />
-<a href="tel:2126618969">(212) 661-8969</a></div>
+															<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="office-ico mb-3" alt="Icon - Lagos Office" data-lazy-src="lagos.svg" /><noscript><img src="lagos.svg" class="office-ico mb-3" alt="Lagos Office" /></noscript>																						<div class="h4 mb-2 titillium-web">New York, NY</div>
+																						<div class="text-base">Gorals Africa<br />
+16B Mobolaji Bank Anthony Way,<br />
+Maryland 101233, <br />
+Lagos State <br>
+<a href="tel:2348105600803">(234) 810-5600-803</a></div>
 													</div>
 												<div class="col-6 mb-5 text-md-start text-sm-center text-start">
-															<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="office-ico mb-3" alt="Icon - Nashville Office" data-lazy-src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-Nashville-Office.svg" /><noscript><img src="https://www.amsivedigital.com/wp-content/uploads/2021/03/Icon-Nashville-Office.svg" class="office-ico mb-3" alt="Icon - Nashville Office" /></noscript>																						<div class="h4 mb-2 titillium-web">Nashville, TN</div>
-																						<div class="text-base">Amsive Digital<br />
-414 Union St Suite 1900<br />
-Nashville, TN 37219</div>
+															<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" class="office-ico mb-3" alt="Icon - Port Harcourt Office" data-lazy-src="ph.svg" /><noscript><img src="ph.svg" class="office-ico mb-3" alt="Icon - Port Harcourt Office" /></noscript>																						<div class="h4 mb-2 titillium-web">Nashville, TN</div>
+																						<div class="text-base">Gorals Africa<br />
+4B Manuchim Close,<br />
+Woji, Port Harcourt,<br>
+Rivers State
+</div>
 													</div>
 												<div class="col-6 mb-5 text-md-start text-sm-center text-start">
 																						<div class="h4 mb-2 titillium-web">Miami, FL</div>

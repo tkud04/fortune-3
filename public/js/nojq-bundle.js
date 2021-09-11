@@ -1,3 +1,17 @@
+    var slgb = document.getElementById("slg-black");
+    var slgw = document.getElementById("slg-white");
+
+	// Show an element
+function sshow(elem) {
+	elem.style.display = 'block';
+};
+
+// Hide an element
+function hhide(elem) {
+	elem.style.display = 'none';
+}
+	
+
 window.onload = function() {
     const e = document.getElementsByTagName("html")[0],
         t = document.getElementsByTagName("body")[0],
@@ -30,10 +44,12 @@ window.onload = function() {
             L(), B(), H()
         };
     var h = document.getElementById("header-nav-container");
+	
+
     if (void 0 !== h && null != h) var w = h.offsetTop;
 
     function L() {
-        window.pageYOffset > w ? e.classList.remove("attop") : (e.classList.add("attop"), window.innerWidth < 670 && (n.classList.remove("showtop"), n.classList.remove("tinny"), n.classList.remove("fixed-top")))
+        window.pageYOffset > w ? (e.classList.remove("attop"),hhide(slgb),sshow(slgw)) : (e.classList.add("attop"), window.innerWidth < 670 && (n.classList.remove("showtop"), n.classList.remove("tinny"), n.classList.remove("fixed-top")),hhide(slgw),sshow(slgb))
     }
     document.getElementById("back-top").onclick = function(e) {
         e.preventDefault(), window.scrollTo(0, 0)

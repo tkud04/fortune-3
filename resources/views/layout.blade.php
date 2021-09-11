@@ -112,7 +112,8 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 												<a class="logo" href="{{url('/')}}" id="site-logo"
 						   title="Gorals" rel="home">
 							<div class="svg-logo">
-							<img src="images/logo.jpg">
+							<img id="slg-black" src="images/logo.jpg">
+							<img id="slg-white" src="images/logo-white.jpg">
 							<!--
 							<canvas id="iesvg"></canvas><svg id="Amsive_Digital_-_Logo_Multi" data-name="Gorals - Logo Multi" xmlns="http://www.w3.org/2000/svg" width="199" height="81" viewBox="0 0 415.703 169.939">
   <g id="Group_61" data-name="Group 61" transform="translate(0 0)">

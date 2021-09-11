@@ -1,9 +1,19 @@
 	let  toolbar = ['title', 'bold', 'italic', 'underline', 'strikethrough', 'fontScale', 'color', '|', 'ol', 'ul', 'blockquote', 'code', 'table', '|', 'link', 'image', 'hr', '|', 'indent', 'outdent', 'alignment'];
 	let qv = 0;
-
+	 let h = document.getElementById("header-nav-container"),
+	slg = document.getElementById("slg"),
+	logoBlack = "images/logo.jpg", 
+	logoWhite = "images/logo-white.jpg";
+	let ll = "";
+    
 $(document).ready(function() {
     "use strict";
-       
+
+	 if (void 0 !== h && null != h) var w = h.offsetTop;
+	
+       ll = window.pageYOffset > w ? logoBlack : logoWhite;
+       // slg.setAttribute("src",ll);
+	   
 	   //auth
        $("#login-has-pass").change(function(e) {
         e.preventDefault();

@@ -13,17 +13,7 @@
 															}				
 			</style>
 					</div></div><section id="block_607ce06520350" class="content-block adtheme-cta py-md-5 py-0 has-font-color text-default background-custom  alignfull background-404040 adtheme-cta has-font-color text-default">				<div class="container-fluid mw-xl">
-										<div class="d-block d-md-none">
-						<picture class="d-block m-0 p-0 w-100">
-<source type="image/webp" data-lazy-srcset="images/service-footer.jpg 1980w,images/service-footer.jpg 1440w, images/service-footer.jpg 720w, images/service-footer.jpg 768w, images/service-footer.jpg 1536w" srcset="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%201980%20550&#039;%3E%3C/svg%3E" data-lazy-sizes="(max-width: 1980px) 100vw, 1980px"/>
-<img width="1980" height="550" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20viewBox=&#039;0%200%201980%20550&#039;%3E%3C/svg%3E" alt="contact_CTA_photo_opt" data-lazy-srcset="images/service-footer.jpg 1980w, images/service-footer.jpg 1440w, images/service-footer.jpg 720w, images/service-footer.jpg 768w, images/service-footer.jpg 1536w" data-lazy-sizes="(max-width: 1980px) 100vw, 1980px" data-lazy-src="images/service-footer.jpg"/>
-</picture>
-<noscript>
-<picture class="d-block m-0 p-0 w-100">
-<source type="image/webp" srcset="images/service-footer.jpg 1980w,images/service-footer.jpg 1440w, images/service-footer.jpg 720w, images/service-footer.jpg 768w, images/service-footer.jpg 1536w" sizes="(max-width: 1980px) 100vw, 1980px"/>
-<img width="1980" height="550" src="images/service-footer.jpg" alt="contact_CTA_photo_opt" srcset="images/service-footer.jpg 1980w,images/service-footer.jpg 1440w, images/service-footer.jpg 720w, images/service-footer.jpg 768w, images/service-footer.jpg 1536w" sizes="(max-width: 1980px) 100vw, 1980px"/>
-</picture>
-</noscript>					</div>
+									
 										<div class="row py-md-2 py-5 px-md-0 px-3">
 											<div class="col-xl-5 col-md-6 py-md-4">
 																				<h2 class="cta-title display-2 w-xl-75 me-5 me-md-0">Work with us.</h2>

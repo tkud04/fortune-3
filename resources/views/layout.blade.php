@@ -101,7 +101,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 <header class="site-header showtop tinny fixed-top" id="mainn-header">
 							<div id="top-bar" class="bg-primary-2 py-2">
 						<div class="container-fluid mw-xl text-center text-white">
-							<div class="py-1"><p><a href="javascript:void(0)">PATH INTERACTIVE IS NOW Gorals.</a></p>
+							<div class="py-1"><p><a href="javascript:void(0)">Due to COVID-19 our Offices are currently closed for meetings and visits from anyone outside the company.</a></p>
 </div>
 						</div>
 					</div>
@@ -244,7 +244,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 											</div>
 				</div>
 			</div>
-			<div class="col-12 col-lg-5 col-md-6 offset-lg-1">
+			<div class="col-12 col-lg-7 col-md-6 offset-lg-1">
 				<div class="row flex-column justify-content-between h-100">
 					<div class="col-12 text-start small-font pb-4">
 						<p>Gorals is a pan-African marketing and communications agency providing data-driven market research, digital media, paid and managed social, analytics, creative, SEO, influencer marketing and web design and development services that help brands grow.</p>
@@ -252,27 +252,13 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 					
 				</div>
 			</div>
-			<div class="col-12 col-lg-4 col-md-6 pt-5 pt-md-0 titillium-web">
+			<div class="col-12 col-lg-2 col-md-6 pt-5 pt-md-0 titillium-web">
 				<div class="row">
-					<div class="col-6">
+					<div class="col-12">
 						<div class="widget widget_nav_menu nav_menu-8"><div class="menu-footer-menu-container"><ul id="menu-footer-menu" class="menu">
 <li id="menu-item-14488" class="menu-item"><a href="{{url('about')}}">About</a></li>
 <li id="menu-item-14489" class="menu-item"><a href="javascript:void(0)">Services</a></li>
 <li id="menu-item-14487" class="menu-item"><a href="{{url('contact')}}">Contact Us</a></li>
-</ul></div></div>					</div>
-					<div class="col-6">
-						<div class="widget widget_nav_menu nav_menu-9"><div class="menu-footer-sub-services-container">
-<ul id="menu-footer-sub-services" class="menu">
-<?php
-   $i = 16098;
-	foreach($services as $s)
-	 {
-	?>
-<li id="menu-item-{{$i}}" class="menu-item"><a href="{{$s['href']}}">{{$s['title']}}</a></li>
-<?php
-$i += 2;
-  }
-?>
 </ul></div></div>					</div>
 				</div>
 			</div>

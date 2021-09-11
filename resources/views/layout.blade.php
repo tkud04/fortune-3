@@ -12,11 +12,11 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 
     <meta name="viewport" content="width=device-width,initial-scale=1">	
 	
-	<link rel="apple-touch-icon" sizes="180x180" href="https://www.amsivedigital.com/apple-touch-icon.png?v=1.1">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://www.amsivedigital.com/favicon-32x32.png?v=1.1">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://www.amsivedigital.com/favicon-16x16.png?v=1.1">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=1.1">
+	<link rel="icon" type="image/png" sizes="32x32" href="images//favicon-32x32.png?v=1.1">
+	<link rel="icon" type="image/png" sizes="16x16" href="images//favicon-16x16.png?v=1.1">
 	<link rel="manifest" href="site.webmanifest?v=1.1">
-	<link rel="mask-icon" href="https://www.amsivedigital.com/safari-pinned-tab.svg?v=1.1" color="#7c0f81">
+	<link rel="mask-icon" href="" color="#7c0f81">
 	<meta name="msapplication-TileColor" content="#7c0f81">
 	<meta name="theme-color" content="#ffffff">
 	<script>

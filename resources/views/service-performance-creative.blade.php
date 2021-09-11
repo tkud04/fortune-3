@@ -49,14 +49,14 @@ $sp = [
   'subtitle' => "OUR PARTNERS",
   'copy' => "We’ve built elite partnerships and strong relationships with leading SEO institutions. These partnerships grant us enterprise-level technology and insights to know more, pivot faster and create original, effective solutions sooner.",
   'images' => [
-    'images/Conductor_200x60-–-3.svg',
-    'images/Brightedge_200x60-–-1.svg',
+    'images/Conductor_200x603.svg',
+    'images/Brightedge_200x601.svg',
     'images/Botify_200x60.svg',
-    'images/GoogleSearchConsole_200x60-–-5.svg',
-    'images/DeepCrawl_200x60-–-4.svg',
-    'images/RioSEO_200x60-–-6.svg',
-    'images/BrightLocal_200x60-–-2.svg',
-    'images/GoogleAnalytics_200x60_Black-–-3.svg',
+    'images/GoogleSearchConsole_200x605.svg',
+    'images/DeepCrawl_200x604.svg',
+    'images/RioSEO_200x606.svg',
+    'images/BrightLocal_200x602.svg',
+    'images/GoogleAnalytics_200x60_Black3.svg',
   ]
 ];
 

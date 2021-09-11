@@ -43,11 +43,11 @@ $sp = [
   'subtitle' => "PARTNERS",
   'copy' => "We pair expertise with global power-house partners, like Google and Oracle, to keep your brand ahead of the curve and even further in front of your competition.",
   'images' => [
-									 'images/PowerBI_200x60_Black-–-4.svg',
-									 'images/Tableau_200x60_Black-–-5.svg',
-									 'images/GTM_200x60_Black-–-1.svg',
-									 'images/GoogleAnalytics_200x60_Black-–-3.svg',
-									 'images/Optimize_200x60_Black-–-2.svg',
+									 'images/PowerBI_200x60_Black4.svg',
+									 'images/Tableau_200x60_Black5.svg',
+									 'images/GTM_200x60_Black1.svg',
+									 'images/GoogleAnalytics_200x60_Black3.svg',
+									 'images/Optimize_200x60_Black2.svg',
 									 ]
 ];
 ?>

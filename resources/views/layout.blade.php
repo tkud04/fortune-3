@@ -36,23 +36,23 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 <title>@yield('title') | Gorals - Digital Performance Marketing Agency</title>
 	<meta name="description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
 	<link rel="canonical" href="{{url('/')}}" />
-	<!--
+
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Gorals" />
 	<meta property="og:description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
-	<meta property="og:url" content="https://www.amsivedigital.com/" />
+	<meta property="og:url" content="{{url('/')}}" />
 	<meta property="og:site_name" content="Gorals" />
-	<meta property="article:publisher" content="https://www.facebook.com/amsivedigital" />
+	<meta property="article:publisher" content="https://www.facebook.com/gorals" />
 	<meta property="article:modified_time" content="2021-08-10T14:30:36+00:00" />
-	<meta property="og:image" content="https://www.amsivedigital.com/wp-content/uploads/2021/06/Amsive_social.jpg" />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="628" />
+	<meta property="og:image" content="{{url('/')}}/images/logo.jpg" />
+	<meta property="og:image:width" content="466" />
+	<meta property="og:image:height" content="198" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Gorals" />
-	<meta name="twitter:image" content="https://www.amsivedigital.com/wp-content/uploads/2021/06/Amsive_social.jpg" />
-	<meta name="twitter:site" content="@amsive_digital" />
-	-->
+	<meta name="twitter:image" content="{{url('/')}}/images/logo.jpg" />
+	<meta name="twitter:site" content="@gorals" />
+
       @yield('metas')
 
 

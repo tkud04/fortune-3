@@ -36,23 +36,23 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 <title><?php echo $__env->yieldContent('title'); ?> | Gorals - Digital Performance Marketing Agency</title>
 	<meta name="description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
 	<link rel="canonical" href="<?php echo e(url('/')); ?>" />
-	<!--
+
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Gorals" />
 	<meta property="og:description" content="Amplifying results with data-centric digital marketing services for businesses of all sizes. We think strategically, work collectively, and pivot quickly. Formerly Path Interactive." />
-	<meta property="og:url" content="https://www.amsivedigital.com/" />
+	<meta property="og:url" content="<?php echo e(url('/')); ?>" />
 	<meta property="og:site_name" content="Gorals" />
-	<meta property="article:publisher" content="https://www.facebook.com/amsivedigital" />
+	<meta property="article:publisher" content="https://www.facebook.com/gorals" />
 	<meta property="article:modified_time" content="2021-08-10T14:30:36+00:00" />
-	<meta property="og:image" content="https://www.amsivedigital.com/wp-content/uploads/2021/06/Amsive_social.jpg" />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="628" />
+	<meta property="og:image" content="<?php echo e(url('/')); ?>/images/logo.jpg" />
+	<meta property="og:image:width" content="466" />
+	<meta property="og:image:height" content="198" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:title" content="Gorals" />
-	<meta name="twitter:image" content="https://www.amsivedigital.com/wp-content/uploads/2021/06/Amsive_social.jpg" />
-	<meta name="twitter:site" content="@amsive_digital" />
-	-->
+	<meta name="twitter:image" content="<?php echo e(url('/')); ?>/images/logo.jpg" />
+	<meta name="twitter:site" content="@gorals" />
+
       <?php echo $__env->yieldContent('metas'); ?>
 
 
@@ -438,7 +438,7 @@ if(!gform){document.addEventListener("gform_main_scripts_loaded",function(){gfor
 					localStorage.setItem(cookieLaw.cId,"1")
 				}
 		},
-		cookieLaw.show({msg:"By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively. For more information, please read our <a href=\"https://www.amsivedigital.com/privacy-policy/\">Privacy Policy</a>.",ok:"OK",llabel:"",lurl:""});</script>
+		cookieLaw.show({msg:"By using this website, you agree to our use of cookies. We use cookies to provide you with a great experience and to help our website run effectively. For more information, please read our <a href=\"javascript:void(0)">Privacy Policy</a>.",ok:"OK",llabel:"",lurl:""});</script>
 	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">/* <![CDATA[ */!function(e,n){var r={"selectors":{"block":"pre.EnlighterJSRAW","inline":"code.EnlighterJSRAW"},"options":{"indent":2,"ampersandCleanup":true,"linehover":false,"rawcodeDbclick":false,"textOverflow":"break","linenumbers":true,"theme":"beyond","language":"html","retainCssClasses":false,"collapse":false,"toolbarOuter":"","toolbarTop":"{BTN_RAW}{BTN_COPY}{BTN_WINDOW}{BTN_WEBSITE}","toolbarBottom":""},"resources":["https:\/\/www.amsivedigital.com\/wp-content\/plugins\/enlighter\/cache\/enlighterjs.min.css?qgfwVbVlB17rq5Q","https:\/\/www.amsivedigital.com\/wp-content\/plugins\/enlighter\/resources\/enlighterjs\/enlighterjs.min.js"]},o=document.getElementsByTagName("head")[0],t=n&&(n.error||n.log)||function(){};e.EnlighterJSINIT=function(){!function(e,n){var r=0,l=null;function c(o){l=o,++r==e.length&&(!0,n(l))}e.forEach(function(e){switch(e.match(/\.([a-z]+)(?:[#?].*)?$/)[1]){case"js":var n=document.createElement("script");n.onload=function(){c(null)},n.onerror=c,n.src=e,n.async=!0,o.appendChild(n);break;case"css":var r=document.createElement("link");r.onload=function(){c(null)},r.onerror=c,r.rel="stylesheet",r.type="text/css",r.href=e,r.media="all",o.appendChild(r);break;default:t("Error: invalid file extension",e)}})}(r.resources,function(e){e?t("Error: failed to dynamically load EnlighterJS resources!",e):"undefined"!=typeof EnlighterJS?EnlighterJS.init(r.selectors.block,r.selectors.inline,r.options):t("Error: EnlighterJS resources not loaded yet!")})},(document.querySelector(r.selectors.block)||document.querySelector(r.selectors.inline))&&e.EnlighterJSINIT()}(window,console); /* ]]> */</script><script type='text/javascript' data-cfasync="false" src='js/bootstrap-5.0.1.min.js?ver=5.0.1' id='bootstrap-js' defer></script>
 <script data-minify="1" type='text/javascript' src='js/nojq-bundle.js?ver=1628889610' id='scripts-js' defer></script>
 <script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
